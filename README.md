@@ -12,7 +12,7 @@
 Personal portfolio which I've written in HTML/CSS/JavaScript. Includes 5 categories: Programming, Graphics Design, Photography, Game Photography, Personal Technology Blog.
 
 ## Screenshots
-![Example screenshot](screen1.jpg) 
+![Example screenshot](screen1.png) 
 
 ## Technologies
 * HTML5
