@@ -1,0 +1,186 @@
+{
+    "projects":
+    [
+        {
+            "Header":
+            {
+                "h2Class":"programming",
+                "h2Title":"Programming",
+                "h2Description":"Sample projects that I've written using HTML, CSS, JavaScript, PHP, jQuery, Bootstrap, C++, C++ Builder."
+            },
+            
+            "Thumbnails":
+            [
+                {
+                    "ID":"0",
+                    "aLink":"https://reznor.tech/online-sequential-number-text-url-link-generator.html",
+                    "pDescription":"Simple pure JavaScript code for generating custom text/links/URLs with numbers in sequential order of your chosen incrementation steps. Generates custom number of lines and can save them into a .txt file in the following template:<br>[ optional symbol/text ] + [ number ] + [ optional symbol/text ]",
+                    "figCaption":"Online Sequential Number, URL & Text Generator"
+                },
+                {
+                    "ID":"1",
+                    "aLink":"https://reznor.tech/projects/ac-card-memory-game/game.html",
+                    "pDescription":"HTML/CSS/JavaScript, jQuery, media queries for mobile devices. A gift for my brother. Based on Pasja Informatyki's idea - but repaired code redundancy, improved look, added auto-generation, restart, transition effects, get rid of bugs. Features random array shuffling using the Fisher-Yates algorithm in pure JavaScript. Runs even on IE11.",
+                    "figCaption":"Assassin's Creed Card Memory Game"
+                },
+                {
+                    "ID":"2",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"3",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                }
+            ]
+        },
+        {
+            "Header":
+            {
+                "h2Class":"graphicdesign",
+                "h2Title":"Graphic Design",
+                "h2Description":"Sample projects that I've done as a graphic designer."
+            },
+            
+            "Thumbnails":
+            [
+                {
+                    "ID":"0",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"1",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"2",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"3",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                }
+            ]
+        },
+        {
+            "Header":
+            {
+                "h2Class":"photography",
+                "h2Title":"Photography",
+                "h2Description":"Sample photos that I took as a hobbyist photographer."
+            },
+            
+            "Thumbnails":
+            [
+                {
+                    "ID":"0",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"1",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"2",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"3",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                }
+            ]
+        },
+        {
+            "Header":
+            {
+                "h2Class":"gamephotography",
+                "h2Title":"Game Photography",
+                "h2Description":"Sample game photos (screenshots) that I took as a hobby during playing. (even during playing I can creatively use that time!)"
+            },
+            
+            "Thumbnails":
+            [
+                {
+                    "ID":"0",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"1",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"2",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"3",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                }
+            ]
+        },
+        {
+            "Header":
+            {
+                "h2Class":"personaltechblog",
+                "h2Title":"Personal Technology Blog",
+                "h2Description":"A simple webpage that I've written after 3 months of learning on Pasja Informatyki's channel, where I try to help people understand technology. It also helps me improve my programming skills."
+            },
+            
+            "Thumbnails":
+            [
+                {
+                    "ID":"0",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"1",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"2",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                },
+                {
+                    "ID":"3",
+                    "aLink":"#",
+                    "pDescription":"Long description",
+                    "figCaption":"Short description"
+                }
+            ]
+        }
+    ]
+
+}
