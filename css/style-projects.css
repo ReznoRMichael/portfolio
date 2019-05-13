@@ -3,6 +3,10 @@ html, body
     text-align: center;
     height: 100%;
     background-image: url("../img/what-the-hex-dark-projects.png"); /* Background pattern from Toptal Subtle Patterns */
+    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    font-size: 20px;
 }
 .header
 {
@@ -10,7 +14,32 @@ html, body
 }
 .hprojects
 {
-    margin: 15px 15px;
+    margin: 25px 15px 0px 15px;
+}
+.hprojects:hover,
+.hprojects:hover a
+{
+    color: #FF6600;
+}
+.hprojects:before,
+.hprojects:after
+{
+    position: relative;
+    bottom: 5px;
+    font-family: 'fontello';
+    font-size: 25px;
+    color: transparent;
+    margin-right: 10px;
+    margin-left: 10px;
+    content: '\e809';
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+.hprojects:hover:before,
+.hprojects:hover:after
+{
+    opacity: 1;
+    color: #FF6600;
 }
 p.logo
 {
@@ -18,10 +47,6 @@ p.logo
 	font-weight: 400;
 	color: #AAA;
 	margin: 10px 10px;
-}
-#mainmenu
-{
-    margin-bottom: 20px;
 }
 .nav
 {
@@ -61,6 +86,11 @@ h2
 {
     color: #FFF;
     font-weight: 400;
+}
+.michaelreznor
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .programming:before,
 .graphicdesign:before,
@@ -102,9 +132,11 @@ h2
     align-items: center;
     justify-content: center;
     background-color: hsla(24, 60%, 20%, 0.85);
+    background-color: rgba(0, 0, 0, 0.85);
     border-radius: 15px;
     opacity: 0;
     transition: opacity 0.5s ease-out;
+    overflow: hidden;
 }
 .portfolio-img-16-9-overlay > i
 {
@@ -115,11 +147,40 @@ h2
 .portfolio-img-16-9-overlay > p
 {
     position: relative;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 400;
     color: #FFF;
     margin: 5%;
+}
+@media (max-width: 1024px)
+{
+    .portfolio-img-16-9-overlay > p
+    {
+        font-size: 0.6em;
+    }
 }
 a:hover .portfolio-img-16-9 .portfolio-img-16-9-overlay
 {
     opacity: 0.9;
 }
+.socials
+{
+    align-items: center;
+    margin: 15px auto;
+}
+.footer
+{
+	text-align: center;
+	background-color: transparent;
+    margin: 15px;
+    padding: 0;
+}
+#foot-git
+{ width: 40px; height: 40px; padding: 2px 0px !important; color: #999999; border-radius: 50%; font-size: 1.2em; overflow: hidden; transition: all 0.3s ease-out; }
+#foot-git:hover  { color: #24292e; background-color: #FFFFFF; }
+#foot-lin        { width: 40px; height: 40px; padding: 4px 0px !important; color: #999999; border-radius: 50%; transition: all 0.3s ease-out; }
+#foot-lin:hover  { color: #FFFFFF; background-color: #0077b5; }
+#foot-da         { width: 40px; height: 40px; padding: 5px 0px !important; color: #999999; border-radius: 50%; transition: all 0.3s ease-out; }
+#foot-da:hover   { color: #FFFFFF; background-color: #05cc47; }
+#foot-yt         { width: 40px; height: 40px; padding: 5px 0px !important; color: #999999; border-radius: 50%; transition: all 0.3s ease-out; }
+#foot-yt:hover   { color: #FFFFFF; background-color: #ff0000; }

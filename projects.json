@@ -6,7 +6,7 @@
             {
                 "h2Class":"programming",
                 "h2Title":"Programming",
-                "h2Description":"Sample projects that I've written using HTML, CSS, JavaScript, PHP, jQuery, Bootstrap, C++, C++ Builder."
+                "h2Description":"Some chosen projects that I've written using <strong>C++ (OOP), HTML5, CSS3, JavaScript, PHP, MySQL, jQuery, Bootstrap 4, C++ Builder.</strong><br> Please check out <a href='https://github.com/ReznoRMichael' target='_blank'>my GitHub</a> for all practice exercises. (100+ repositories)"
             },
             
             "Thumbnails":
@@ -14,26 +14,50 @@
                 {
                     "ID":"0",
                     "aLink":"https://reznor.tech/online-sequential-number-text-url-link-generator.html",
-                    "pDescription":"Simple pure JavaScript code for generating custom text/links/URLs with numbers in sequential order of your chosen incrementation steps. Generates custom number of lines and can save them into a .txt file in the following template:<br>[ optional symbol/text ] + [ number ] + [ optional symbol/text ]",
+                    "pDescription":"<strong>HTML, CSS, JavaScript</strong><br><br>Simple pure JavaScript code for generating custom text/links/URLs with numbers in sequential order of your chosen incrementation steps. Generates custom number of lines and can save them into a .txt file in the following template:<br>[ optional symbol/text ] + [ number ] + [ optional symbol/text ]",
                     "figCaption":"Online Sequential Number, URL & Text Generator"
                 },
                 {
                     "ID":"1",
                     "aLink":"https://reznor.tech/projects/ac-card-memory-game/game.html",
-                    "pDescription":"HTML/CSS/JavaScript, jQuery, media queries for mobile devices. A gift for my brother. Based on Pasja Informatyki's idea - but repaired code redundancy, improved look, added auto-generation, restart, transition effects, get rid of bugs. Features random array shuffling using the Fisher-Yates algorithm in pure JavaScript. Runs even on IE11.",
+                    "pDescription":"<strong>HTML, CSS, JavaScript, jQuery, media queries</strong><br><br>A gift for my brother. Based on Pasja Informatyki's idea - but repaired code redundancy, improved look, added auto-generation, restart, transition effects, get rid of bugs. Features random array shuffling using the Fisher-Yates algorithm in pure JavaScript. Runs even on IE11.",
                     "figCaption":"Assassin's Creed Card Memory Game"
                 },
                 {
                     "ID":"2",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"https://codepen.io/ReznoR/full/bJKyWp",
+                    "pDescription":"<strong>HTML, CSS</strong><br><br>Responsive Web Design Projects - Build a Survey Form. My Survey Form is a simple Front-end for the user about improving my personal technology blog reznor.tech. It has stylized input fields and custom style checkboxes and radio buttons.",
+                    "figCaption":"Front-end Responsive Survey Form"
                 },
                 {
                     "ID":"3",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"https://github.com/ReznoRMichael/php-course-pasja-informatyki-episode5-pdo-library-newsletter-subscription",
+                    "pDescription":"<strong>HTML, CSS, PHP, MySQL, back-end</strong><br><br>Newsletter subscription page. Admin panel for logging in only for admins. Display all newsletter database entries of users. Using PDO library for connections. Catching exceptions. E-mail, login, password, user in database validation checking. Security code sanitization. Checking if entered e-mail already exists. Fetching a SQL table and displaying it in the browser. Session remembering. Counting the number of total records in the database. Logging out (unsetting session). Inserting a new e-mail into the database.",
+                    "figCaption":"Newsletter subscription page + Admin panel"
+                },
+                {
+                    "ID":"4",
+                    "aLink":"https://github.com/ReznoRMichael/php-course-pasja-informatyki-episode2-php-login-registration-database-connection",
+                    "pDescription":"<strong>HTML, CSS, PHP, MySQL, back-end</strong><br><br>Login page. Registration of new users. Validation of password. Password hashing. Terms and Conditions check. Google reCAPTCHA. SQL injection security - code sanitization. E-mail validation. Password length and login length check. Database connection. Inserting new registered users into database. Checking if user already exists. Exception handling. Reading values from database and displaying in HTML. Date and time handling, checking and validation. Associative arrays. Page redirection. Logging in users. Remembering Sessions between pages. Logging out (unsetting session).",
+                    "figCaption":"PHP & MySQL Back-end Registration Form"
+                },
+                {
+                    "ID":"5",
+                    "aLink":"https://github.com/ReznoRMichael/reznor-windows-operating-system-time-counter",
+                    "pDescription":"<strong>C++ (OOP)</strong><br><br>Ninja invisible Windows application written in C++ Builder 6.0. Counts time when being open and saves it into .txt file every 15min - also after every closing, shutdown or logoff. After launch reads the contents of the file and counts further from where it finished. It also shows the user in the .txt file a translation to hours, minutes and seconds of total time counted.",
+                    "figCaption":"Windows Operating System Time Counter"
+                },
+                {
+                    "ID":"6",
+                    "aLink":"https://github.com/ReznoRMichael/object-cpp-course-pasja-informatyki-episode8-windows-reznor-notepad",
+                    "pDescription":"<strong>C++ (OOP)</strong><br><br>Windows GUI program written in C++ Builder 6.0. It's a Notepad that has all the usual functions, like New, Open, Save, Save As, Exit, Cut, Copy, Paste, Select All, Word Wrap, Change Font, Help, Information about the author and a link to my youtube channel. It has also a custom icon, can save .txt and .ini files. It prompts about confirmation if the text field is not empty or user wants to create a new file.",
+                    "figCaption":"Notepad for Windows"
+                },
+                {
+                    "ID":"7",
+                    "aLink":"https://github.com/ReznoRMichael/reznor-custom-link-generator",
+                    "pDescription":"<strong>C++ (OOP)</strong><br><br>Program that I've first written in procedural C++, and then rewritten using Classes, Member Functions and a Stopwatch specifically for myself for generating deviantart comments links and saving them into a text file. It asks the user for the custom link text - if you type 0 it will use the default text. Then it asks the user for the starting [link_number], then for the ending [link_number]. Then it calculates how many total links it will generate, starts the timer, and begins saving all the links into generated_links.txt file. After the saving is completed, it stops the timer, and shows the time it took to generate and save the file in seconds.",
+                    "figCaption":"Custom Link Generator"
                 }
             ]
         },
@@ -150,34 +174,34 @@
             {
                 "h2Class":"personaltechblog",
                 "h2Title":"Personal Technology Blog",
-                "h2Description":"A simple webpage that I've written after 3 months of learning on Pasja Informatyki's channel, where I try to help people understand technology. It also helps me improve my programming skills."
+                "h2Description":"A simple HTML5 + CSS3 + JavaScript + Bootstrap 4 webpage that I've written in Notepad++ after 3 months of learning. I try to help people understand technology and share my knowledge, experience. At the same time it also serves me as a training ground, and a place to share my hobbyist Game Photographs. I constantly learn new things in programming, technologies and SEO and try to implement them gradually to my blog, step by step."
             },
             
             "Thumbnails":
             [
                 {
                     "ID":"0",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"https://reznor.tech/",
+                    "pDescription":"<strong>rezno[R].tech</strong><br><br>If you are a person who enjoys PC, technology, hardware, software, games, audio and you wish to understand them more... then it's the right place.",
+                    "figCaption":"rezno[R].tech - Main Page"
                 },
                 {
                     "ID":"1",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"https://reznor.tech/pc-technology.html",
+                    "pDescription":"<strong>Guides, news, articles: PC, Windows, Software and Technology</strong><br><br>PC, Software, Windows Guides, Tips, Tricks, Web Tools. Free guides, tips, tricks, information about PC, software and technologies. Useful Online Web Tools, programs and apps. For beginners and advanced users.",
+                    "figCaption":"Category: PC and Technology"
                 },
                 {
                     "ID":"2",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"https://reznor.tech/games-art.html",
+                    "pDescription":"<strong>Guides, news, articles: Games, Game Photography and Game Art</strong><br><br>All my guides associated with gaming or software used for games. As a hobby I'm also doing Game Photography and creating Photo Albums from most beautiful games ever created.",
+                    "figCaption":"Category: Games and Art"
                 },
                 {
                     "ID":"3",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"https://reznor.tech/audio-sound.html",
+                    "pDescription":"<strong>Guides, news, articles: Audio and Sound</strong><br><br>Sound Guides, Information and everything else about Audio and Sound: How to improve your general audio quality and music/games/movies experience on PC and Windows? What software to use? What hardware to buy for your needs? What is the difference between audio formats? Here you will find all the answers.",
+                    "figCaption":"Category: Audio and Sound"
                 }
             ]
         }

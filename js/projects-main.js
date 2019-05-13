@@ -27,7 +27,7 @@ function ProjectsGenerator(userclick)
         pDescription = jsonObj.projects[userclick].Thumbnails[i].pDescription;
         figCaption = jsonObj.projects[userclick].Thumbnails[i].figCaption;
         
-        if(userclick > 0) backgroundImage = "style='background-image:url(\"default.png\")'";
+        if(userclick > 0 && userclick < 4) backgroundImage = "style='background-image:url(\"default.png\")'";
         else backgroundImage = "style='background-image:url(\""+h2Class+"/"+h2Class+i+".png\")'";
 
         var thumbnail = [
