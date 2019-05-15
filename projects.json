@@ -66,7 +66,7 @@
             {
                 "h2Class":"graphicdesign",
                 "h2Title":"Graphic Design",
-                "h2Description":"Sample projects that I've done as a graphic designer."
+                "h2Description":"Some of the chosen works that I've done working as a graphic designer (2009 - 2017). Nothing really special here."
             },
             
             "Thumbnails":
@@ -102,34 +102,38 @@
             {
                 "h2Class":"photography",
                 "h2Title":"Photography",
-                "h2Description":"Sample photos that I took as a hobbyist photographer."
+                "h2Description":"Some of the photos that I took as a hobbyist photographer using mobile cameras, compact camera (Canon A620) and DSLRs (Nikon D90, Pentax K10D) with various lenses (modern and old M42)."
             },
             
             "Thumbnails":
             [
                 {
                     "ID":"0",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"nature",
+                    "pDescription":"<strong>Nature Photo<br>Landscapes, foliage, flowers, forests...</strong><br><br>Click to view in Fullscreen Mode",
+                    "figCaption":"Nature",
+                    "photosAmount":"21"
                 },
                 {
                     "ID":"1",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"sky",
+                    "pDescription":"<strong>Sky Photo<br>Skies, clouds, night, stars, weather, sunsets...</strong><br><br>Click to view in Fullscreen Mode",
+                    "figCaption":"Sky",
+                    "photosAmount":"16"
                 },
                 {
                     "ID":"2",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"life",
+                    "pDescription":"<strong>Living Being Photo<br>Photos of all living things...</strong><br><br>Click to view in Fullscreen Mode",
+                    "figCaption":"Life",
+                    "photosAmount":"5"
                 },
                 {
                     "ID":"3",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"others",
+                    "pDescription":"<strong>Uncategorized Photos<br>Objects, abstract, surreal, cars, products, architecture...</strong><br><br>Click to view in Fullscreen Mode",
+                    "figCaption":"Others",
+                    "photosAmount":"13"
                 }
             ]
         },
@@ -145,27 +149,24 @@
             [
                 {
                     "ID":"0",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"aco",
+                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Origins</strong><br><br>Click to view in Fullscreen Mode",
+                    "figCaption":"Assassin's Creed Origins",
+                    "photosAmount":"1"
                 },
                 {
                     "ID":"1",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"acu",
+                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Unity</strong><br><br>Click to view in Fullscreen Mode",
+                    "figCaption":"Assassin's Creed Unity",
+                    "photosAmount":"1"
                 },
                 {
                     "ID":"2",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
-                },
-                {
-                    "ID":"3",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"hel",
+                    "pDescription":"<strong>Game Photo<br>Hellblade: Senua's Sacrifice</strong><br><br>Click to view in Fullscreen Mode",
+                    "figCaption":"Hellblade: Senua's Sacrifice",
+                    "photosAmount":"1"
                 }
             ]
         },
@@ -182,25 +183,25 @@
                 {
                     "ID":"0",
                     "aLink":"https://reznor.tech/",
-                    "pDescription":"<strong>rezno[R].tech</strong><br><br>If you are a person who enjoys PC, technology, hardware, software, games, audio and you wish to understand them more... then it's the right place.",
+                    "pDescription":"<strong>rezno[R].tech<br>Guides, articles, informations, tools, game photos...</strong><br><br>If you are a person who enjoys PC, technology, hardware, software, games, audio, art and you wish to understand them more... then it's the right place.",
                     "figCaption":"rezno[R].tech - Main Page"
                 },
                 {
                     "ID":"1",
                     "aLink":"https://reznor.tech/pc-technology.html",
-                    "pDescription":"<strong>Guides, news, articles: PC, Windows, Software and Technology</strong><br><br>PC, Software, Windows Guides, Tips, Tricks, Web Tools. Free guides, tips, tricks, information about PC, software and technologies. Useful Online Web Tools, programs and apps. For beginners and advanced users.",
+                    "pDescription":"<strong>PC, Windows, Software and Technology</strong><br><br>PC, Software, Windows Guides, Tips, Tricks, Web Tools. Free guides, tips, tricks, information about PC, software and technologies. Useful Online Web Tools, programs and apps. For beginners and advanced users.",
                     "figCaption":"Category: PC and Technology"
                 },
                 {
                     "ID":"2",
                     "aLink":"https://reznor.tech/games-art.html",
-                    "pDescription":"<strong>Guides, news, articles: Games, Game Photography and Game Art</strong><br><br>All my guides associated with gaming or software used for games. As a hobby I'm also doing Game Photography and creating Photo Albums from most beautiful games ever created.",
+                    "pDescription":"<strong>Games, Game Photography and Game Art</strong><br><br>All my guides associated with gaming or software used for games. As a hobby I'm also doing Game Photography and creating Photo Albums from most beautiful games ever created.",
                     "figCaption":"Category: Games and Art"
                 },
                 {
                     "ID":"3",
                     "aLink":"https://reznor.tech/audio-sound.html",
-                    "pDescription":"<strong>Guides, news, articles: Audio and Sound</strong><br><br>Sound Guides, Information and everything else about Audio and Sound: How to improve your general audio quality and music/games/movies experience on PC and Windows? What software to use? What hardware to buy for your needs? What is the difference between audio formats? Here you will find all the answers.",
+                    "pDescription":"<strong>Audio and Sound</strong><br><br>Sound Guides, Information and everything else about Audio and Sound: How to improve your general audio quality and music/games/movies experience on PC and Windows? What software to use? What hardware to buy for your needs? What is the difference between audio formats? Here you will find all the answers.",
                     "figCaption":"Category: Audio and Sound"
                 }
             ]

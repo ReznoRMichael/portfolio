@@ -8,6 +8,11 @@ html, body
     
     font-size: 20px;
 }
+::selection
+{
+    background: #FF6600;
+    text-shadow: none;
+}
 .header
 {
     padding: 10px 0 10px 0;
@@ -86,10 +91,11 @@ h2
 {
     color: #FFF;
     font-weight: 400;
+    margin-top: 50px;
 }
 .michaelreznor
 {
-    padding-top: 1%;
+    padding-top: 0;
     padding-bottom: 1%;
 }
 .programming:before,
@@ -115,8 +121,8 @@ h2
     width: 100%;
     padding-bottom: calc(100% * 9 / 16);
     background-image: url("../default.png");
-    background-size: auto 100%;
-	background-position: center top;
+    background-size: 100% auto;
+	background-position: center center;
     background-repeat: no-repeat;
     border: 2px solid #222222;
     border-radius: 15px;
@@ -157,6 +163,12 @@ h2
     .portfolio-img-16-9-overlay > p
     {
         font-size: 0.6em;
+    }
+    .hprojects:before,
+    .hprojects:after
+    {
+        content: none;
+        transition: none;
     }
 }
 a:hover .portfolio-img-16-9 .portfolio-img-16-9-overlay

@@ -1,4 +1,5 @@
-var jsonObj, h2Class, h2Title, h2Description, aLink, pDescription, figCaption, thumbnails = "", backgroundImage;
+var jsonObj, h2Class, h2Title, h2Description, aLink, aTarget, pDescription, figCaption, backgroundImage, imgExt, imgSize, numImages;
+var thumbGroup = "", thumbnails = "";
 
 function loadJSON(callback)
 {   
