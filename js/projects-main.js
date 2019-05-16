@@ -129,9 +129,7 @@ function ProjectsGenerator(userclick)
 
     document.getElementById("generate").innerHTML = pageStart + thumbnails + pageEnd;
 
-    setTimeout(blazyInit(), 500);
-    
-    //blazyInit();
+    var bLazy = new Blazy();
 }
 
 /* ------------------------------------------------------------------------------- */

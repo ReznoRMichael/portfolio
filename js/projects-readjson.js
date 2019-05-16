@@ -40,8 +40,9 @@ function thumbnailArrayLength(userclickcheck)
     return jsonObj.projects[userclickcheck].Thumbnails.length;
 }
 
-function blazyInit()
+/* function blazyInit()
 {
-    // Initialize
     var bLazy = new Blazy();
 }
+
+blazyInit(); */
