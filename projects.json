@@ -142,28 +142,28 @@
             {
                 "h2Class":"gamephotography",
                 "h2Title":"Game Photography",
-                "h2Description":"Sample game photos (screenshots) that I took as a hobby during playing. (even during playing I can creatively use that time!)"
+                "h2Description":"Sample game photos (screenshots) that I took as a hobby during playing (even during playing I can creatively use that time!)."
             },
             
             "Thumbnails":
             [
                 {
                     "ID":"0",
-                    "aLink":"aco",
+                    "aLink":"acorigins",
                     "pDescription":"<strong>Game Photo<br>Assassin's Creed Origins</strong><br><br>Click to view in Fullscreen Mode",
                     "figCaption":"Assassin's Creed Origins",
                     "photosAmount":"1"
                 },
                 {
                     "ID":"1",
-                    "aLink":"acu",
+                    "aLink":"acunity",
                     "pDescription":"<strong>Game Photo<br>Assassin's Creed Unity</strong><br><br>Click to view in Fullscreen Mode",
                     "figCaption":"Assassin's Creed Unity",
                     "photosAmount":"1"
                 },
                 {
                     "ID":"2",
-                    "aLink":"hel",
+                    "aLink":"hellblade",
                     "pDescription":"<strong>Game Photo<br>Hellblade: Senua's Sacrifice</strong><br><br>Click to view in Fullscreen Mode",
                     "figCaption":"Hellblade: Senua's Sacrifice",
                     "photosAmount":"1"

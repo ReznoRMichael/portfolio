@@ -11,7 +11,12 @@ function ProjectsGenerator(userclick)
     h2Description = jsonObj.projects[userclick].Header.h2Description;
     aTarget = "_blank";
     imgExt = ".jpg";
-    backgroundImage = "style='background-image:url(\"default.png\")'";
+    //backgroundImage = "style='background-image:url(\"default.png\")'";
+    backgroundImage = "default.png";
+    imgImage = "";
+
+    if(userclick == 2) aspectRatio = "aspect-ratio-3-2";
+    else aspectRatio = "aspect-ratio-16-9";
     
     var pageStart = [
         "<header>",
@@ -41,14 +46,15 @@ function ProjectsGenerator(userclick)
             aLink = jsonObj.projects[userclick].Thumbnails[i].aLink;
             pDescription = jsonObj.projects[userclick].Thumbnails[i].pDescription;
             figCaption = jsonObj.projects[userclick].Thumbnails[i].figCaption;
-            backgroundImage = "style='background-image:url(\""+h2Class+"/"+h2Class+i+imgExt+"\")'";
+            //backgroundImage = "style='background-image:url(\""+h2Class+"/"+h2Class+i+imgExt+"\")'";
 
             var thumbnail = [
                 "<div class='col-sm-10 col-md-8 col-lg-6'>",
                     "<a href='"+aLink+"' target='"+aTarget+"'>",
                     "<figure>",
-                        "<div class='portfolio-img-16-9' "+backgroundImage+">",
-                            "<div class='portfolio-img-16-9-overlay'>",
+                        "<div class='portfolio-img'>",
+                            "<img class='b-lazy' src='"+backgroundImage+"' data-src='"+h2Class+"/"+h2Class+i+imgExt+"' alt='"+figCaption+"'>",
+                            "<div class='portfolio-img-overlay'>",
                                 "<p>"+pDescription+"</p>",
                             "</div>",
                         "</div>",
@@ -83,15 +89,17 @@ function ProjectsGenerator(userclick)
             for(n=0; n<numImages; n++)
             {
                 imgSize = "small-";
-                backgroundImage = "style='background-image:url(\""+h2Class+"/"+imgSize+aLink+n+imgExt+"\")'";
+                //backgroundImage = "style='background-image:url(\""+h2Class+"/"+imgSize+aLink+n+imgExt+"\")'";
+                imgImage = h2Class+"/"+imgSize+aLink+n+imgExt;
                 imgSize = "big-";
 
                 var thumbnail = [
                     "<div class='col-sm-10 col-md-8 col-lg-6'>",
                         "<a href='"+h2Class+"/"+imgSize+aLink+n+imgExt+"' target='"+aTarget+"'>",
                         "<figure>",
-                            "<div class='portfolio-img-16-9' "+backgroundImage+">",
-                                "<div class='portfolio-img-16-9-overlay'>",
+                            "<div class='portfolio-img'>",
+                                "<img class='b-lazy' src='"+backgroundImage+"' data-src='"+imgImage+"' alt='"+figCaption+"'>",
+                                "<div class='portfolio-img-overlay'>",
                                     "<p>"+pDescription+"</p>",
                                 "</div>",
                             "</div>",
@@ -120,4 +128,33 @@ function ProjectsGenerator(userclick)
     //console.log(h2Class);
 
     document.getElementById("generate").innerHTML = pageStart + thumbnails + pageEnd;
+
+    setTimeout(blazyInit(), 500);
+    
+    //blazyInit();
+}
+
+/* ------------------------------------------------------------------------------- */
+var ninjaClicked = false;
+var ninjaHidden = true;
+
+function ninjaSpoiler(value)
+{
+    ninjaClicked = true;
+    var ninjaClick = "ninjaClick"+value;
+    var ninjaButton = "ninja"+value;
+    
+    if(ninjaClicked && ninjaHidden)
+    {
+        $('#'+ninjaClick).show(300);
+        document.getElementById(ninjaButton).innerHTML = "Close spoiler ▲";
+        ninjaHidden = false;
+    }
+    else
+    {
+        $('#'+ninjaClick).hide(300);
+        document.getElementById(ninjaButton).innerHTML = "Open spoiler ▼";
+        ninjaClicked = false;
+        ninjaHidden = true;
+    }
 }

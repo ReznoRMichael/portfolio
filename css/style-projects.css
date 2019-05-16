@@ -115,19 +115,29 @@ h2
 .gamephotography:before { content: '\f11b'; }
 .personaltechblog:before { content: '\e808'; }
 
-.portfolio-img-16-9
+.portfolio-img
 {
     position: relative;
     width: 100%;
-    padding-bottom: calc(100% * 9 / 16);
     background-image: url("../default.png");
     background-size: 100% auto;
 	background-position: center center;
     background-repeat: no-repeat;
     border: 2px solid #222222;
     border-radius: 15px;
+    overflow: hidden;
 }
-.portfolio-img-16-9-overlay
+.portfolio-img > img
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.aspect-ratio-3-2 { padding-bottom: calc(100% * 2 / 3); }
+.aspect-ratio-16-9 { padding-bottom: calc(100% * 9 / 16); }
+
+.portfolio-img-overlay
 {
     position: absolute;
     top: -2px;
@@ -144,13 +154,13 @@ h2
     transition: opacity 0.5s ease-out;
     overflow: hidden;
 }
-.portfolio-img-16-9-overlay > i
+.portfolio-img-overlay > i
 {
     position: relative;
     font-size: 120px;
     color: #FFF;
 }
-.portfolio-img-16-9-overlay > p
+.portfolio-img-overlay > p
 {
     position: relative;
     font-size: 16px;
@@ -160,7 +170,7 @@ h2
 }
 @media (max-width: 1024px)
 {
-    .portfolio-img-16-9-overlay > p
+    .portfolio-img-overlay > p
     {
         font-size: 0.6em;
     }
@@ -171,9 +181,33 @@ h2
         transition: none;
     }
 }
-a:hover .portfolio-img-16-9 .portfolio-img-16-9-overlay
+a:hover .portfolio-img .portfolio-img-overlay
 {
     opacity: 0.9;
+}
+.orangebutton
+{
+    padding: 9px 20px;
+    color: #FF6600;
+    color: var(--rt-orange);
+    height: 40px;
+    background-color: transparent;
+    font-weight: 400;
+    width: max-content;
+    border-radius: 5px;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+.orangebutton:hover
+{
+    cursor: pointer;
+    color: #000;
+    background-color: #FF6600;
+    background-color: var(--rt-orange);
+}
+.ninjahiddenspoiler
+{
+    display: none;
 }
 .socials
 {
@@ -186,6 +220,18 @@ a:hover .portfolio-img-16-9 .portfolio-img-16-9-overlay
 	background-color: transparent;
     margin: 15px;
     padding: 0;
+}
+.b-lazy
+{
+	-webkit-transition: opacity 1250ms ease-out;
+	-moz-transition: opacity 1250ms ease-out;
+	-o-transition: opacity 1250ms ease-out;
+	transition: opacity 1250ms ease-out;
+	opacity: 0;
+}
+.b-lazy.b-loaded
+{
+	opacity: 1;
 }
 #foot-git
 { width: 40px; height: 40px; padding: 2px 0px !important; color: #999999; border-radius: 50%; font-size: 1.2em; overflow: hidden; transition: all 0.3s ease-out; }

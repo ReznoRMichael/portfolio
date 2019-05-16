@@ -19,6 +19,8 @@
         <meta name="author" content="ReznoR Michael">
         
         <link rel="icon" href="favicon.png">
+
+        <script src="js/projects-readjson.js"></script>
         
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/fontello.css" rel="stylesheet" type="text/css">
@@ -99,21 +101,32 @@
             
             <div class="michaelreznor">
 
-                <h2>Hi!<br>My name is Michał Stefaniak.</h2>
+                <h2>Hi! My name is Michał Stefaniak.</h2>
+
+                <p>I'm a passionate, self-educated person currently searching for new opportunities to grow in programming and IT.</p>
+
+                <p>Since childhood I am very enthusiastic about PC, games, technology, hardware and software. I spent almost 7 years working as a Lead Graphic Designer in a small company, but this job didn't satisfy me. My heart and mind always deeply desired more challenges. Some time ago I started learning programming and I noticed that I totally enjoy writing, solving complex logic problems, helping people and constantly developing my character and skills.</p>
+                
+                <p>My dream is to work for a company where I could one day fully utilize all my skills and interests - especially to work on projects that could help many people and develop my programming skills at the same time.</p>
+
+                <p>I know I only just started my programming journey, but I'm motivated, I enjoy learning new things, and I know how to divide a bigger task into smaller parts and focus on priorities.</p>
 
                 <p>My life situation always forced me to self-education in everything which I was interested in.<br>
                 While all my peers learned theory - I was practicing and gaining experience instead.</p>
 
                 <p>Here you will find only a few selected things that I did throughout my journey...</p>
 
-                <p><strong>PS. This whole page is only a single .html file.</strong><br>
-                I've written a script in JavaScript that automatically generates the thumbnails, titles, descriptions, links and contents of all the categories from a single .JSON file and using a single function - just because I always wanted to learn how to do it.</p>
-
-                <p>You only need to click a button from one of the 5 categories and the script will take care of the rest.<br>
-                <small>If you wish to go back to this intro text, just click the "Michael ReznoR's Projects" text at the top or reload the page.</small>
-                </p>
-
-                <p>Have fun! :)</p>
+                <div class="orangebutton" onclick="ninjaSpoiler(0)" id="ninja0">Open spoiler ▼</div>
+                <div class="ninjahiddenspoiler" id="ninjaClick0">
+                    <p><strong>PS. This whole page is only a single .html file.</strong><br>
+                    I've written a script in JavaScript that automatically generates the thumbnails, titles, descriptions, links and contents of all the categories from a single .JSON file and using a single function - just because I always wanted to learn how to do it.</p>
+    
+                    <p>You only need to click a button from one of the 5 categories and the script will take care of the rest.<br>
+                    <small>If you wish to go back to this intro text, just click the "Michael ReznoR's Projects" text at the top or reload the page.</small>
+                    </p>
+    
+                    <p>Have fun! :)</p>
+                </div>
 
             </div>
             
@@ -151,5 +164,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.scrollTo.min.js"></script>
 <script src="js/arrowscroll.js"></script>
-<script src="js/projects-readjson.js"></script>
+
 <script src="js/projects-main.js"></script>
+
+<script src="js/blazy.min.js"></script>

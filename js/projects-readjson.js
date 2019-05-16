@@ -1,4 +1,5 @@
-var jsonObj, h2Class, h2Title, h2Description, aLink, aTarget, pDescription, figCaption, backgroundImage, imgExt, imgSize, numImages;
+var jsonObj, h2Class, h2Title, h2Description, aLink, aTarget, pDescription, figCaption, backgroundImage, imgImage, imgExt, imgSize, numImages;
+var aspectRatio = "16-9";
 var thumbGroup = "", thumbnails = "";
 
 function loadJSON(callback)
@@ -37,4 +38,10 @@ loadJSON(function JSONparse(response) {
 function thumbnailArrayLength(userclickcheck)
 {
     return jsonObj.projects[userclickcheck].Thumbnails.length;
+}
+
+function blazyInit()
+{
+    // Initialize
+    var bLazy = new Blazy();
 }
