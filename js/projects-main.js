@@ -137,7 +137,13 @@ function ProjectsGenerator(userclick)
 
     document.getElementById("generate").innerHTML = pageStart + thumbnails + pageEnd;
 
-    var bLazy = new Blazy();
+    // initialize lazy load of images
+    var bLazy = new Blazy({
+        selector: 'img',
+        container: '#generate'
+    });
+
+    bLazy.revalidate(); // fix for scripted load!
 }
 
 /* ------------------------------------------------------------------------------- */
