@@ -12,11 +12,19 @@ function ProjectsGenerator(userclick)
     aTarget = "_blank";
     imgExt = ".jpg";
     //backgroundImage = "style='background-image:url(\"default.png\")'";
-    backgroundImage = "default.png";
     imgImage = "";
 
-    if(userclick == 2) aspectRatio = "aspect-ratio-3-2";
-    else aspectRatio = "aspect-ratio-16-9";
+    switch(userclick)
+    {
+        case 2:
+            aspectRatio = "aspect-ratio-3-2";
+            backgroundImage = "default-3-2.png";
+            break;
+        default:
+            aspectRatio = "aspect-ratio-16-9";
+            backgroundImage = "default.png";
+            break;
+    }
     
     var pageStart = [
         "<header>",
@@ -52,7 +60,7 @@ function ProjectsGenerator(userclick)
                 "<div class='col-sm-10 col-md-8 col-lg-6'>",
                     "<a href='"+aLink+"' target='"+aTarget+"'>",
                     "<figure>",
-                        "<div class='portfolio-img'>",
+                        "<div class='portfolio-img "+aspectRatio+"'>",
                             "<img class='b-lazy' src='"+backgroundImage+"' data-src='"+h2Class+"/"+h2Class+i+imgExt+"' alt='"+figCaption+"'>",
                             "<div class='portfolio-img-overlay'>",
                                 "<p>"+pDescription+"</p>",
@@ -97,7 +105,7 @@ function ProjectsGenerator(userclick)
                     "<div class='col-sm-10 col-md-8 col-lg-6'>",
                         "<a href='"+h2Class+"/"+imgSize+aLink+n+imgExt+"' target='"+aTarget+"'>",
                         "<figure>",
-                            "<div class='portfolio-img'>",
+                            "<div class='portfolio-img "+aspectRatio+"'>",
                                 "<img class='b-lazy' src='"+backgroundImage+"' data-src='"+imgImage+"' alt='"+figCaption+"'>",
                                 "<div class='portfolio-img-overlay'>",
                                     "<p>"+pDescription+"</p>",

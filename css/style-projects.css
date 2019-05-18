@@ -119,7 +119,6 @@ h2
 {
     position: relative;
     width: 100%;
-    background-image: url("../default.png");
     background-size: 100% auto;
 	background-position: center center;
     background-repeat: no-repeat;
@@ -134,8 +133,9 @@ h2
     width: 100%;
     height: auto;
 }
-.aspect-ratio-3-2 { padding-bottom: calc(100% * 2 / 3); }
-.aspect-ratio-16-9 { padding-bottom: calc(100% * 9 / 16); }
+.aspect-ratio-16-9 { background-image: url("../default.png"); }
+.aspect-ratio-3-2 { background-image: url("../default-3-2.png"); }
+.aspect-ratio-calc { padding-bottom: calc(100% * 9 / 16); }
 
 .portfolio-img-overlay
 {
