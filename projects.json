@@ -6,7 +6,7 @@
             {
                 "h2Class":"programming",
                 "h2Title":"Programming",
-                "h2Description":"Some chosen projects that I've written using <strong>C++ (OOP), HTML5, CSS3, JavaScript, PHP, MySQL, jQuery, Bootstrap 4, C++ Builder.</strong><br> Please check out <a href='https://github.com/ReznoRMichael' target='_blank'>my GitHub</a> for all practice exercises. (100+ repositories)"
+                "h2Description":"Some chosen projects that I've written using <strong>C++ (OOP), HTML5, CSS3, JavaScript, PHP, MySQL, jQuery, Bootstrap 4, C++ Builder.</strong><br> Please check out <a href='https://github.com/ReznoRMichael' target='_blank'>my GitHub</a> for all practice exercises. (100+ repositories)<br>Coming soon: live PHP/MySQL versions (have to set up online database)"
             },
             
             "Thumbnails":
@@ -66,7 +66,7 @@
             {
                 "h2Class":"graphicdesign",
                 "h2Title":"Graphic Design",
-                "h2Description":"Some of the chosen works that I've done working as a graphic designer (2009 - 2017). Nothing really special here."
+                "h2Description":"Some of the chosen works that I've done working as a graphic designer (2009 - 2017). Nothing really special here.<br>Currently added: Large Format Prints. Coming soon: Small Format Prints, Cars, Electronic Media, Gadgets, Occassional Rewards, Visual Identity"
             },
             
             "Thumbnails":
@@ -186,7 +186,7 @@
             {
                 "h2Class":"personaltechblog",
                 "h2Title":"Personal Technology Blog",
-                "h2Description":"A simple HTML5 + CSS3 + JavaScript + Bootstrap 4 webpage that I've written in Notepad++ after 3 months of learning. I try to help people understand technology and share my knowledge, experience. At the same time it also serves me as a training ground, and a place to share my hobbyist Game Photographs. I constantly learn new things in programming, technologies and SEO and try to implement them gradually to my blog, step by step."
+                "h2Description":"A simple HTML5 + CSS3 + JavaScript + Bootstrap 4 webpage that I've written in Notepad++ after 3 months of learning. I try to help people understand technology and share my knowledge, experience. At the same time it also serves me as a training ground, and a place to share my hobbyist Game Photographs. I constantly learn new things in programming, technologies and SEO and try to implement them gradually to my blog, step by step.<br>Coming soon: links to guides I've written (eng/pl)"
             },
             
             "Thumbnails":
