@@ -73,27 +73,10 @@
             [
                 {
                     "ID":"0",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
-                },
-                {
-                    "ID":"1",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
-                },
-                {
-                    "ID":"2",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
-                },
-                {
-                    "ID":"3",
-                    "aLink":"#",
-                    "pDescription":"Long description",
-                    "figCaption":"Short description"
+                    "aLink":"bigformat",
+                    "pDescription":"<strong>Graphic Design<br>Large Format Prints</strong><br>Boards, Banners, Window Ads, Large Posters, Exterior...<br><br>Click to view in higher quality",
+                    "figCaption":"Large Format Prints",
+                    "photosAmount":"36"
                 }
             ]
         },
@@ -150,23 +133,51 @@
                 {
                     "ID":"0",
                     "aLink":"acorigins",
-                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Origins</strong><br><br>Click to view in higher quality",
-                    "figCaption":"Assassin's Creed Origins",
+                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Origins</strong> (2017)<br><br>Click to view in higher quality",
+                    "figCaption":"Assassin's Creed Origins (2017)",
                     "photosAmount":"63"
                 },
                 {
                     "ID":"1",
                     "aLink":"acunity",
-                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Unity</strong><br><br>Click to view in higher quality",
-                    "figCaption":"Assassin's Creed Unity",
+                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Unity</strong> (2015)<br><br>Click to view in higher quality",
+                    "figCaption":"Assassin's Creed Unity (2014)",
                     "photosAmount":"49"
                 },
                 {
                     "ID":"2",
                     "aLink":"hellblade",
-                    "pDescription":"<strong>Game Photo<br>Hellblade: Senua's Sacrifice</strong><br><br>Click to view in higher quality",
-                    "figCaption":"Hellblade: Senua's Sacrifice",
+                    "pDescription":"<strong>Game Photo<br>Hellblade: Senua's Sacrifice</strong> (2017)<br><br>Click to view in higher quality",
+                    "figCaption":"Hellblade: Senua's Sacrifice (2017)",
                     "photosAmount":"17"
+                },
+                {
+                    "ID":"3",
+                    "aLink":"acsyndicate",
+                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Syndicate</strong> (2015)<br><br>Click to view in higher quality",
+                    "figCaption":"Assassin's Creed Syndicate (2015)",
+                    "photosAmount":"41"
+                },
+                {
+                    "ID":"4",
+                    "aLink":"nfscarbon",
+                    "pDescription":"<strong>Game Photo<br>Need for Speed Carbon</strong> (2006)<br><br>Click to view in higher quality",
+                    "figCaption":"Need for Speed Carbon (2006)",
+                    "photosAmount":"2"
+                },
+                {
+                    "ID":"5",
+                    "aLink":"assettocorsa",
+                    "pDescription":"<strong>Game Photo<br>Assetto Corsa</strong> (2014)<br><br>Click to view in higher quality",
+                    "figCaption":"Assetto Corsa (2014)",
+                    "photosAmount":"12"
+                },
+                {
+                    "ID":"6",
+                    "aLink":"accompetizione",
+                    "pDescription":"<strong>Game Photo<br>Assetto Corsa Competizione</strong> (2019)<br><br>Click to view in higher quality",
+                    "figCaption":"Assetto Corsa Competizione (2019)",
+                    "photosAmount":"1"
                 }
             ]
         },

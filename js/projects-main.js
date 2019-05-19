@@ -78,6 +78,7 @@ function ProjectsGenerator(userclick)
 
         /* ----- Photography and Game Photography ----- */
 
+        case 1:
         case 2:
         case 3:
 
