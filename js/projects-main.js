@@ -11,7 +11,6 @@ function ProjectsGenerator(userclick)
     h2Description = jsonObj.projects[userclick].Header.h2Description;
     aTarget = "_blank";
     imgExt = ".jpg";
-    //backgroundImage = "style='background-image:url(\"default.png\")'";
     imgImage = "";
 
     switch(userclick)
@@ -139,10 +138,7 @@ function ProjectsGenerator(userclick)
     document.getElementById("generate").innerHTML = pageStart + thumbnails + pageEnd;
 
     // initialize lazy load of images
-    var bLazy = new Blazy({
-        selector: 'img',
-        container: '#generate'
-    });
+    bLazy = new Blazy();
 
     bLazy.revalidate(); // fix for scripted load!
 }

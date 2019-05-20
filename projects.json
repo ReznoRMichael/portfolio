@@ -66,17 +66,45 @@
             {
                 "h2Class":"graphicdesign",
                 "h2Title":"Graphic Design",
-                "h2Description":"Some of the chosen works that I've done working as a graphic designer (2009 - 2017). Nothing really special here.<br>Currently added: Large Format Prints. Coming soon: Small Format Prints, Cars, Electronic Media, Gadgets, Occassional Rewards, Visual Identity"
+                "h2Description":"Some of the chosen works that I've done working as a graphic designer (2009 - 2017). Nothing really special here.<br>Currently added: Large Format Prints. Coming soon: Small Format Prints, Cars, Gadgets, Occassional Rewards, Visual Identity"
             },
             
             "Thumbnails":
             [
                 {
                     "ID":"0",
+                    "aLink":"electronic",
+                    "pDescription":"<strong>Graphic Design<br>Electronic/Screen Media</strong><br>Electronic Digital Design, Digital Editing, Photo Montage, Photography Editing/Correction...<br><br>Click to view in higher quality",
+                    "figCaption":"Electronic/Screen Media",
+                    "photosAmount":"1"
+                },
+                {
+                    "ID":"1",
                     "aLink":"bigformat",
                     "pDescription":"<strong>Graphic Design<br>Large Format Prints</strong><br>Boards, Banners, Window Ads, Large Posters, Exterior...<br><br>Click to view in higher quality",
                     "figCaption":"Large Format Prints",
                     "photosAmount":"36"
+                },
+                {
+                    "ID":"2",
+                    "aLink":"cars",
+                    "pDescription":"<strong>Graphic Design<br>Car Prints Design</strong><br>External Car Ad design, visualization, preparation of files for printing...<br><br>Click to view in higher quality",
+                    "figCaption":"Car Prints Design",
+                    "photosAmount":"23"
+                },
+                {
+                    "ID":"3",
+                    "aLink":"gadgets",
+                    "pDescription":"<strong>Graphic Design<br>Gadgets</strong><br>Mugs, Canvas Prints, Photo Wallpapers, Calendars...<br><br>Click to view in higher quality",
+                    "figCaption":"Gadgets",
+                    "photosAmount":"14"
+                },
+                {
+                    "ID":"4",
+                    "aLink":"rewards",
+                    "pDescription":"<strong>Graphic Design<br>Rewards</strong><br>Rewards, Occassional Prints, Statues, Congratulatory Letters, Stickers, Invitations...<br><br>Click to view in higher quality",
+                    "figCaption":"Rewards, Occassional Prints",
+                    "photosAmount":"10"
                 }
             ]
         },
