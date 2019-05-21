@@ -1,5 +1,7 @@
 function ProjectsGenerator(userclick)
 {
+    var bLazy = new Blazy();
+
     var x = thumbnailArrayLength(userclick); // how many projects to show - calculated from .json current project array length
 
     document.getElementById("generate").innerHTML = ""; // clear the contents each time user clicks the category button (safety)
@@ -135,12 +137,21 @@ function ProjectsGenerator(userclick)
 
     //console.log(h2Class);
 
-    document.getElementById("generate").innerHTML = pageStart + thumbnails + pageEnd;
+    function generateAll(callback)
+    {
+        pageStart += thumbnails += pageEnd;
+        document.getElementById("generate").innerHTML = pageStart;
+        callback();
+    }
 
-    // initialize lazy load of images
-    bLazy = new Blazy();
+    function loadBlazy()
+    {
+        // not really elegant "fix" for Chrome/Opera with timeout...
+        setTimeout(function () { bLazy = new Blazy(); }, 100);
+    }
 
-    bLazy.revalidate(); // fix for scripted load!
+    generateAll(loadBlazy);
+
 }
 
 /* ------------------------------------------------------------------------------- */
