@@ -1,7 +1,7 @@
+var bLazy = new Blazy();
+
 function ProjectsGenerator(userclick)
 {
-    var bLazy = new Blazy();
-
     var x = thumbnailArrayLength(userclick); // how many projects to show - calculated from .json current project array length
 
     document.getElementById("generate").innerHTML = ""; // clear the contents each time user clicks the category button (safety)
@@ -77,7 +77,7 @@ function ProjectsGenerator(userclick)
         }
         break; // end case 0, 4
 
-        /* ----- Photography and Game Photography ----- */
+        /* ----- Graphic Design, Photography and Game Photography ----- */
 
         case 1:
         case 2:
@@ -146,7 +146,7 @@ function ProjectsGenerator(userclick)
 
     function loadBlazy()
     {
-        // not really elegant "fix" for Chrome/Opera with timeout...
+        // not really elegant "fix" for Chrome/Opera with timeout... (hope to fix it properly in the future)
         setTimeout(function () { bLazy = new Blazy(); }, 100);
     }
 
@@ -155,6 +155,7 @@ function ProjectsGenerator(userclick)
 }
 
 /* ------------------------------------------------------------------------------- */
+
 var ninjaClicked = false;
 var ninjaHidden = true;
 
