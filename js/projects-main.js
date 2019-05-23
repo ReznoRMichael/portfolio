@@ -2,7 +2,7 @@ var bLazy = new Blazy();
 
 function ProjectsGenerator(userclick)
 {
-    var x = thumbnailArrayLength(userclick); // how many projects to show - calculated from .json current project array length
+    var x = thumbnailArrayLength(userclick); // how many projects (sub-categories) to show - calculated from .json current project array length
 
     document.getElementById("generate").innerHTML = ""; // clear the contents each time user clicks the category button (safety)
     thumbnails = ""; // clear the contents each time user clicks the category button
@@ -83,18 +83,17 @@ function ProjectsGenerator(userclick)
         case 2:
         case 3:
 
-        x = jsonObj.projects[userclick].Thumbnails.length; // total number of games calculated from array length
-        thumbGroup = ""; // helper holding all thumbnails from each game
+        thumbGroup = ""; // temporary helper holding all generated thumbnails code from each sub-category
 
         for(i=0; i<x; i++)
         {
             aLink = jsonObj.projects[userclick].Thumbnails[i].aLink;
             pDescription = jsonObj.projects[userclick].Thumbnails[i].pDescription;
             figCaption = jsonObj.projects[userclick].Thumbnails[i].figCaption;
-            numImages = jsonObj.projects[userclick].Thumbnails[i].photosAmount; // read number of photos from each game in .JSON
+            numImages = jsonObj.projects[userclick].Thumbnails[i].photosAmount; // read number of photos from each sub-category in .JSON
             parseInt(numImages); // convert string from .JSON to Int
 
-            /* Generate all thumbnails from current game */
+            /* Generate all thumbnails from current sub-category */
 
             for(n=0; n<numImages; n++)
             {
@@ -146,7 +145,8 @@ function ProjectsGenerator(userclick)
 
     function loadBlazy()
     {
-        // not really elegant "fix" for Chrome/Opera with timeout... (hope to fix it properly in the future)
+        // not really elegant "fix" for Chrome/Opera with 100ms timeout...
+        // hope to fix it properly in the future when I will learn more about what is happening here
         setTimeout(function () { bLazy = new Blazy(); }, 100);
     }
 
@@ -168,13 +168,13 @@ function ninjaSpoiler(value)
     if(ninjaClicked && ninjaHidden)
     {
         $('#'+ninjaClick).show(300);
-        document.getElementById(ninjaButton).innerHTML = "Close spoiler ▲";
+        document.getElementById(ninjaButton).innerHTML = "Close Tech Spoiler ▲";
         ninjaHidden = false;
     }
     else
     {
         $('#'+ninjaClick).hide(300);
-        document.getElementById(ninjaButton).innerHTML = "Open spoiler ▼";
+        document.getElementById(ninjaButton).innerHTML = "Open Tech Spoiler ▼";
         ninjaClicked = false;
         ninjaHidden = true;
     }

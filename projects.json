@@ -66,7 +66,7 @@
             {
                 "h2Class":"graphicdesign",
                 "h2Title":"Graphic Design",
-                "h2Description":"Some of the works that I've done working as a graphic designer for a small all-in-one advertising and printing company (2009 - 2017). Nothing really special here - the company heads required most jobs to be done very quickly and with simple tools, between a few minutes for small things up to 15-60 minutes for bigger projects. There were always a lot of different clients and things to do (from smallest things to largest you can imagine) and not enough time to focus on only one project (client's and company heads' own vision most important, designer and modern trends least important). Time and quantity mattered much more than attention to quality and improvement for the company's heads. I always had great attention to details and wish of improvement, so I couldn't realize my full potential while working there and I learned some bad industry practices - it felt like constantly standing in the same place.<br>Currently added: Large Format Prints, Electronic/Screen Media, Cars, Gadgets, Rewards/Occassional Prints, Small Format Prints. Coming soon: Visual Identity"
+                "h2Description":"Some of the works that I've done working as a graphic designer for a small all-in-one advertising and printing company (2009 - 2017). Nothing really special here - the company heads required most jobs to be done very quickly and with simple tools, between a few minutes for small things up to 15-60 minutes for bigger projects. There were always a lot of different clients and things to do (from smallest things to largest you can imagine) and not enough time to focus on only one project (client's and company heads' own vision most important, designer and modern trends least important). Time and quantity mattered much more than attention to quality and improvement for the company's heads. I always had great attention to details and wish of improvement, so I couldn't realize my full potential while working there and I learned some bad industry practices - it felt like constantly standing in the same place."
             },
             
             "Thumbnails":
@@ -87,31 +87,38 @@
                 },
                 {
                     "ID":"2",
+                    "aLink":"visual",
+                    "pDescription":"<strong>Graphic Design<br>Visual Identity</strong><br>Visual Identity for companies, Front Shop/Office Windows etc...<br><br>Click to view in higher quality",
+                    "figCaption":"Visual Identity",
+                    "photosAmount":"43"
+                },
+                {
+                    "ID":"3",
                     "aLink":"bigformat",
                     "pDescription":"<strong>Graphic Design<br>Large Format Prints</strong><br>Boards, Banners, Window Ads, Large Posters, Exterior...<br><br>Click to view in higher quality",
                     "figCaption":"Large Format Prints",
                     "photosAmount":"36"
                 },
                 {
-                    "ID":"3",
+                    "ID":"4",
                     "aLink":"cars",
                     "pDescription":"<strong>Graphic Design<br>Car Prints Design</strong><br>External Car Ad design, visualization, preparation of files for printing...<br><br>Click to view in higher quality",
                     "figCaption":"Car Prints Design",
                     "photosAmount":"23"
                 },
                 {
-                    "ID":"4",
+                    "ID":"5",
                     "aLink":"gadgets",
                     "pDescription":"<strong>Graphic Design<br>Gadgets</strong><br>Mugs, Canvas Prints, Photo Wallpapers, Calendars...<br><br>Click to view in higher quality",
                     "figCaption":"Gadgets",
-                    "photosAmount":"14"
+                    "photosAmount":"11"
                 },
                 {
-                    "ID":"5",
+                    "ID":"6",
                     "aLink":"rewards",
                     "pDescription":"<strong>Graphic Design<br>Rewards</strong><br>Rewards, Occassional Prints, Statues, Congratulatory Letters, Stickers, Invitations...<br><br>Click to view in higher quality",
                     "figCaption":"Rewards, Occassional Prints",
-                    "photosAmount":"10"
+                    "photosAmount":"11"
                 }
             ]
         },
