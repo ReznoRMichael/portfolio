@@ -32,13 +32,13 @@
                 {
                     "ID":"3",
                     "aLink":"https://github.com/ReznoRMichael/php-course-pasja-informatyki-episode5-pdo-library-newsletter-subscription",
-                    "pDescription":"<strong>HTML, CSS, PHP, MySQL, back-end</strong><br><br>Newsletter subscription page. Admin panel for logging in only for admins. Display all newsletter database entries of users. Using PDO library for connections. Catching exceptions. E-mail, login, password, user in database validation checking. Security code sanitization. Checking if entered e-mail already exists. Fetching a SQL table and displaying it in the browser. Session remembering. Counting the number of total records in the database. Logging out (unsetting session). Inserting a new e-mail into the database.",
+                    "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Newsletter subscription page. Admin panel for logging in only for admins. Display all newsletter database entries of users. Using PDO library for connections. Catching exceptions. E-mail, login, password, user in database validation checking. Security code sanitization. Checking if entered e-mail already exists. Fetching a SQL table and displaying it in the browser. Session remembering. Counting the number of total records in the database. Logging out (unsetting session). Inserting a new e-mail into the database.",
                     "figCaption":"Newsletter subscription page + Admin panel"
                 },
                 {
                     "ID":"4",
                     "aLink":"https://github.com/ReznoRMichael/php-course-pasja-informatyki-episode2-php-login-registration-database-connection",
-                    "pDescription":"<strong>HTML, CSS, PHP, MySQL, back-end</strong><br><br>Login page. Registration of new users. Validation of password. Password hashing. Terms and Conditions check. Google reCAPTCHA. SQL injection security - code sanitization. E-mail validation. Password length and login length check. Database connection. Inserting new registered users into database. Checking if user already exists. Exception handling. Reading values from database and displaying in HTML. Date and time handling, checking and validation. Associative arrays. Page redirection. Logging in users. Remembering Sessions between pages. Logging out (unsetting session).",
+                    "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Login page. Registration of new users. Validation of password. Password hashing. Terms and Conditions check. Google reCAPTCHA. SQL injection security - code sanitization. E-mail validation. Password length and login length check. Database connection. Inserting new registered users into database. Checking if user already exists. Exception handling. Reading values from database and displaying in HTML. Date and time handling, checking and validation. Associative arrays. Page redirection. Logging in users. Remembering Sessions between pages. Logging out (unsetting session).",
                     "figCaption":"PHP & MySQL Back-end Registration Form"
                 },
                 {
@@ -58,6 +58,12 @@
                     "aLink":"https://github.com/ReznoRMichael/reznor-custom-link-generator",
                     "pDescription":"<strong>C++ (OOP)</strong><br><br>Program that I've first written in procedural C++, and then rewritten using Classes, Member Functions and a Stopwatch specifically for myself for generating deviantart comments links and saving them into a text file. It asks the user for the custom link text - if you type 0 it will use the default text. Then it asks the user for the starting [link_number], then for the ending [link_number]. Then it calculates how many total links it will generate, starts the timer, and begins saving all the links into generated_links.txt file. After the saving is completed, it stops the timer, and shows the time it took to generate and save the file in seconds.",
                     "figCaption":"Custom Link Generator"
+                },
+                {
+                    "ID":"8",
+                    "aLink":"https://reznor.tech/projects/php-ep6-school/",
+                    "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Click for live version. Learning PHP. Exam exercise. Connecting to a simulated school database, entering the class name and showing the list of students with all average marks. Then calculating the average marks of all class and showing it on screen. Also shows the average mark total for a class and total students in each class.",
+                    "figCaption":"PHP & MySQL Back-end Exam exercise (School)"
                 }
             ]
         },
@@ -228,7 +234,7 @@
             {
                 "h2Class":"personaltechblog",
                 "h2Title":"Personal Technology Blog",
-                "h2Description":"A simple HTML5 + CSS3 + JavaScript + Bootstrap 4 webpage that I've written in Notepad++ after 3 months of learning. I try to help people understand technology and share my knowledge, experience. At the same time it also serves me as a training ground, and a place to share my hobbyist Game Photographs. I constantly learn new things in programming, technologies and SEO and try to implement them gradually to my blog, step by step.<br>Coming soon: links to guides I've written (eng/pl)"
+                "h2Description":"I always enjoyed writing and sharing knowledge with other people to help them understand technology. I've written a few guides in polish in the past and after I started learning programming I created my own simple HTML5 + CSS3 + JavaScript + Bootstrap 4 webpage/blog  where I try to help people understand PCs, software, hardware, audio and games. At the same time it also serves me as a training ground, and a place to share my hobbyist Game Photographs. I constantly learn new things in programming, technologies and SEO and try to implement them gradually to my blog, step by step.<br>Coming soon: links to guides I've written (eng/pl)"
             },
             
             "Thumbnails":
