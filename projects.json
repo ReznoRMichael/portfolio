@@ -31,7 +31,7 @@
                 },
                 {
                     "ID":"3",
-                    "aLink":"https://github.com/ReznoRMichael/php-course-pasja-informatyki-episode5-pdo-library-newsletter-subscription",
+                    "aLink":"https://reznor.tech/projects/php-ep5-newsletter/",
                     "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Newsletter subscription page. Admin panel for logging in only for admins. Display all newsletter database entries of users. Using PDO library for connections. Catching exceptions. E-mail, login, password, user in database validation checking. Security code sanitization. Checking if entered e-mail already exists. Fetching a SQL table and displaying it in the browser. Session remembering. Counting the number of total records in the database. Logging out (unsetting session). Inserting a new e-mail into the database.",
                     "figCaption":"Newsletter subscription page + Admin panel"
                 },
