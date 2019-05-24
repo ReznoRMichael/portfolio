@@ -37,7 +37,7 @@
                 },
                 {
                     "ID":"4",
-                    "aLink":"https://github.com/ReznoRMichael/php-course-pasja-informatyki-episode2-php-login-registration-database-connection",
+                    "aLink":"https://reznor.tech/projects/php-ep2-4-settlers/",
                     "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Login page. Registration of new users. Validation of password. Password hashing. Terms and Conditions check. Google reCAPTCHA. SQL injection security - code sanitization. E-mail validation. Password length and login length check. Database connection. Inserting new registered users into database. Checking if user already exists. Exception handling. Reading values from database and displaying in HTML. Date and time handling, checking and validation. Associative arrays. Page redirection. Logging in users. Remembering Sessions between pages. Logging out (unsetting session).",
                     "figCaption":"PHP & MySQL Back-end Registration Form"
                 },
