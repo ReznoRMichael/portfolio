@@ -80,49 +80,49 @@
                 {
                     "ID":"0",
                     "aLink":"electronic",
-                    "pDescription":"<strong>Graphic Design<br>Electronic/Screen Media</strong><br>Electronic Digital Design, Digital Editing, Photo Montage, Photography Editing/Correction...<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Electronic/Screen Media</strong><br>Electronic Digital Design, Digital Editing, Photo Montage, Photography Editing/Correction...",
                     "figCaption":"Electronic/Screen Media",
                     "photosAmount":"2"
                 },
                 {
                     "ID":"1",
                     "aLink":"smallformat",
-                    "pDescription":"<strong>Graphic Design<br>Small Format Prints</strong><br>Business Cards, Leaflets, Calendars...<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Small Format Prints</strong><br>Business Cards, Leaflets, Calendars...",
                     "figCaption":"Small Format Prints",
                     "photosAmount":"73"
                 },
                 {
                     "ID":"2",
                     "aLink":"visual",
-                    "pDescription":"<strong>Graphic Design<br>Visual Identity</strong><br>Visual Identity for companies, Front Shop/Office Windows etc...<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Visual Identity</strong><br>Visual Identity for companies, Front Shop/Office Windows etc...",
                     "figCaption":"Visual Identity",
                     "photosAmount":"43"
                 },
                 {
                     "ID":"3",
                     "aLink":"bigformat",
-                    "pDescription":"<strong>Graphic Design<br>Large Format Prints</strong><br>Boards, Banners, Window Ads, Large Posters, Exterior...<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Large Format Prints</strong><br>Boards, Banners, Window Ads, Large Posters, Exterior...",
                     "figCaption":"Large Format Prints",
                     "photosAmount":"36"
                 },
                 {
                     "ID":"4",
                     "aLink":"cars",
-                    "pDescription":"<strong>Graphic Design<br>Car Prints Design</strong><br>External Car Ad design, visualization, preparation of files for printing...<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Car Prints Design</strong><br>External Car Ad design, visualization, preparation of files for printing...",
                     "figCaption":"Car Prints Design",
                     "photosAmount":"23"
                 },
                 {
                     "ID":"5",
                     "aLink":"gadgets",
-                    "pDescription":"<strong>Graphic Design<br>Gadgets</strong><br>Mugs, Canvas Prints, Photo Wallpapers, Calendars...<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Gadgets</strong><br>Mugs, Canvas Prints, Photo Wallpapers, Calendars...",
                     "figCaption":"Gadgets",
                     "photosAmount":"11"
                 },
                 {
                     "ID":"6",
                     "aLink":"rewards",
-                    "pDescription":"<strong>Graphic Design<br>Rewards</strong><br>Rewards, Occassional Prints, Statues, Congratulatory Letters, Stickers, Invitations...<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Rewards</strong><br>Rewards, Occassional Prints, Statues, Congratulatory Letters, Stickers, Invitations...",
                     "figCaption":"Rewards, Occassional Prints",
                     "photosAmount":"11"
                 }
@@ -181,49 +181,49 @@
                 {
                     "ID":"0",
                     "aLink":"acorigins",
-                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Origins</strong> (2017)<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Assassin's Creed Origins</strong> (2017)",
                     "figCaption":"Assassin's Creed Origins (2017)",
                     "photosAmount":"63"
                 },
                 {
                     "ID":"1",
                     "aLink":"acunity",
-                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Unity</strong> (2015)<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Assassin's Creed Unity</strong> (2015)",
                     "figCaption":"Assassin's Creed Unity (2014)",
                     "photosAmount":"49"
                 },
                 {
                     "ID":"2",
                     "aLink":"hellblade",
-                    "pDescription":"<strong>Game Photo<br>Hellblade: Senua's Sacrifice</strong> (2017)<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Hellblade: Senua's Sacrifice</strong> (2017)",
                     "figCaption":"Hellblade: Senua's Sacrifice (2017)",
                     "photosAmount":"17"
                 },
                 {
                     "ID":"3",
                     "aLink":"acsyndicate",
-                    "pDescription":"<strong>Game Photo<br>Assassin's Creed Syndicate</strong> (2015)<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Assassin's Creed Syndicate</strong> (2015)",
                     "figCaption":"Assassin's Creed Syndicate (2015)",
                     "photosAmount":"41"
                 },
                 {
                     "ID":"4",
                     "aLink":"nfscarbon",
-                    "pDescription":"<strong>Game Photo<br>Need for Speed Carbon</strong> (2006)<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Need for Speed Carbon</strong> (2006)",
                     "figCaption":"Need for Speed Carbon (2006)",
                     "photosAmount":"2"
                 },
                 {
                     "ID":"5",
                     "aLink":"assettocorsa",
-                    "pDescription":"<strong>Game Photo<br>Assetto Corsa</strong> (2014)<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Assetto Corsa</strong> (2014)",
                     "figCaption":"Assetto Corsa (2014)",
                     "photosAmount":"12"
                 },
                 {
                     "ID":"6",
                     "aLink":"accompetizione",
-                    "pDescription":"<strong>Game Photo<br>Assetto Corsa Competizione</strong> (2019)<br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Assetto Corsa Competizione</strong> (2019)",
                     "figCaption":"Assetto Corsa Competizione (2019)",
                     "photosAmount":"1"
                 }

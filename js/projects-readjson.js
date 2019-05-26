@@ -1,4 +1,4 @@
-var jsonObj, h2Class, h2Title, h2Description, aLink, aTarget, pDescription, figCaption, backgroundImage, imgImage, imgExt, imgSize, numImages;
+var jsonObj, h2Class, h2Title, h2Description, aLink, aLongLink, aTarget, pDescription, figCaption, backgroundImage, imgImage, imgExt, imgSize, numImages;
 var aspectRatio = "16-9";
 var thumbGroup = "", thumbnails = "";
 
