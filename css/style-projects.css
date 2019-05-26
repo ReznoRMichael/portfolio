@@ -198,6 +198,10 @@ a:hover .portfolio-img .portfolio-img-overlay
     display: block;
     transition: all 0.3s ease-out;
 }
+.orangebutton > a
+{
+    width: max-content;
+}
 .orangebutton:hover
 {
     cursor: pointer;

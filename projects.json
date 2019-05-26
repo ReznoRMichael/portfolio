@@ -6,7 +6,7 @@
             {
                 "h2Class":"programming",
                 "h2Title":"Programming",
-                "h2Description":"Some chosen projects that I've written using <strong>C++ (OOP), HTML5, CSS3, JavaScript, PHP, MySQL, jQuery, Bootstrap 4, C++ Builder.</strong><br> Please check out <a href='https://github.com/ReznoRMichael' target='_blank'>my GitHub</a> for all practice exercises. (100+ repositories)<br>Coming soon: live PHP/MySQL versions (have to set up online database)"
+                "h2Description":"Some chosen projects that I've written using <strong>C++ (OOP), HTML5, CSS3, JavaScript, PHP, MySQL, jQuery, Bootstrap 4, C++ Builder.</strong><br> Please check out <a href='https://github.com/ReznoRMichael' target='_blank'>my GitHub</a> for all practice exercises and code. (100+ repositories)"
             },
             
             "Thumbnails":
@@ -141,28 +141,28 @@
                 {
                     "ID":"0",
                     "aLink":"nature",
-                    "pDescription":"<strong>Nature Photo<br>Landscapes, foliage, flowers, forests...</strong><br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Nature Photos<br>Landscapes, foliage, flowers, forests...</strong>",
                     "figCaption":"Nature",
                     "photosAmount":"21"
                 },
                 {
                     "ID":"1",
                     "aLink":"sky",
-                    "pDescription":"<strong>Sky Photo<br>Skies, clouds, night, stars, weather, sunsets...</strong><br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Sky Photos<br>Skies, clouds, night, stars, weather, sunsets...</strong>",
                     "figCaption":"Sky",
                     "photosAmount":"16"
                 },
                 {
                     "ID":"2",
                     "aLink":"life",
-                    "pDescription":"<strong>Living Being Photo<br>Photos of all living things...</strong><br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Living Being Photos<br>Photos of all living things...</strong>",
                     "figCaption":"Life",
                     "photosAmount":"6"
                 },
                 {
                     "ID":"3",
                     "aLink":"others",
-                    "pDescription":"<strong>Uncategorized Photos<br>Objects, abstract, surreal, cars, products, architecture...</strong><br><br>Click to view in higher quality",
+                    "pDescription":"<strong>Uncategorized Photos<br>Objects, abstract, surreal, cars, products, architecture...</strong>",
                     "figCaption":"Others",
                     "photosAmount":"13"
                 }
