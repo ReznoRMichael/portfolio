@@ -121,9 +121,15 @@ function ProjectsGenerator(userclick, thumbgroupclick=-1)
                 pageStart = [
                     "<header>",
                     "<h2 class='"+h2Class+"'>"+h2Title+" - "+figCaption+"</h2>",
-                    "<p>"+h2Description+"<br><a href='#' onclick='ProjectsGenerator("+userclick+")'>Go Back to Categories</a></p>",
+                    "<p><a href='#' class='orangebutton' onclick='ProjectsGenerator("+userclick+")'>◄ Go Back to Categories</a></p>",
                     "</header>",
                     "<div class='row justify-content-center'>"
+                ].join("\n");
+
+                pageEnd = [
+                    "</div>",
+                    "<a href='#' class='orangebutton' onclick='ProjectsGenerator("+userclick+")'>◄ Go Back to Categories</a>",
+                    "<a href='#' id='go-up' class='orangebutton' onclick='goToTop($)'>Go to top ▲</a>"
                 ].join("\n");
 
                 thumbnails += thumbnail;

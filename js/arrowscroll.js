@@ -1,10 +1,15 @@
+$('a[href="#"]').click(function(e)
+{
+    e.preventDefault ? e.preventDefault() : e.returnValue = false;
+});
+
 jQuery(function($)
 {
 	// reset scroll
 	$.scrollTo(0);
-	$('.scrollup').click(function(e)
+	$('.scrollup').click(function()
 		{
-			e.preventDefault(); // anti-double in Chrome
+			//e.preventDefault(); // anti-double in Chrome
 			$.scrollTo($('body'), 700);
 		});
 }

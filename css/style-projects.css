@@ -195,7 +195,10 @@ a:hover .portfolio-img .portfolio-img-overlay
     font-weight: 400;
     width: max-content;
     border-radius: 5px;
-    display: block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 20px 10px;
     transition: all 0.3s ease-out;
 }
 .orangebutton > a
