@@ -62,8 +62,8 @@
                 {
                     "ID":"8",
                     "aLink":"https://reznor.tech/projects/php-ep6-school/",
-                    "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Click for live version. Learning PHP. Exam exercise. Connecting to a simulated school database, entering the class name and showing the list of students with all average marks. Then calculating the average marks of all class and showing it on screen. Also shows the average mark total for a class and total students in each class.",
-                    "figCaption":"PHP & MySQL Back-end Exam exercise (School)"
+                    "pDescription":"<strong>PHP, MySQL, back-end (PDO), HTML, CSS</strong><br><br>Click for live version. Learning PHP/MySQL and exam exercise. Connecting to a simulated school database. Read data from table. Present the data in a table on screen. Insert data into table. Sanitize entered data. All connections are done using PDO. Session remembers entered form data.",
+                    "figCaption":"PHP & MySQL Back-end (Student database)"
                 }
             ]
         },
