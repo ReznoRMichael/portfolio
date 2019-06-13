@@ -12,15 +12,17 @@
 
             <h2>Hi! My name is Michał Stefaniak.</h2>
 
-            <p>An enthusiastic, self-educated former Lead Graphic Designer currently offering his humble skills as a helping hand to an experienced mentor who would take me under his/her wing - for free or on a paid intern.</p>
+            <p>An enthusiastic, friendly, self-educated person currently offering his humble programming skills as a helping hand to an experienced mentor who would kindly take me under their wing - for a free or paid intern.</p>
 
-            <p>In exchange I can offer you many varied skills and experience - my life forced me to self-education in PCs, IT support, graphic design, photography, games and writing guides about technology, audio, hardware, software. In my previous job I had many different roles at once from which my experience could become useful (all are mentioned in <a href="https://www.linkedin.com/in/michal-stefaniak/" target="_blank">my LinkedIn profile</a>). Since November 2018 I'm learning programming to pursue my strongest childhood dream that previously wasn't possible for me to achieve.</p>
+            <p>If you need an employee who is always open for new challenges, likes solving logical problems, helping other people, loves constant self-improvement, reading, writing and learning new things, has attention to details, likes to push his boundaries - I'm that person.</p>
+            
+            <p>I'm a quick and eager learner, very motivated to pursue my strongest childhood dream - work professionally as a programmer. I could take just about anything and learn in practice, because practice was always the best teacher for me. I'm open for learning all necessary languages, frameworks and tools.</p>
 
-            <p>If you need someone who always enjoys a challenge, solving logical problems, helping other people, loves constant self-improvement, reading, writing and learning new things + has attention to details - I'm that person.</p>
+            <p>In exchange I can offer you many varied skills and experience - my life was full of self-education in practice. In my previous job I had many different roles at once from which my experience could become useful. Since November 2018 I'm learning C++, HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress, Bootstrap, Git. Currently Laravel 5.7.</p>
+            
+            <p>if(place to sit && task to work on) I will be totally happy to help you and honoured to learn from the best :) else never stop trying.</p>
 
-            <p>if(place to sit && task to work on) I will be totally happy to help you and honoured to learn new things from the best :) else never stop trying.</p>
-
-            <p>My end goal and dream since childhood? To be a programmer - preferably to work in a team of great people on back-end and multiplatform apps that could improve many people's lives. If I learn hard enough, I believe that this dream could one day become reality.</p>
+            <p>More info about me is organized on <a href="https://www.linkedin.com/in/michal-stefaniak/" target="_blank">my LinkedIn profile</a>.</p>
 
             <div class="orangebutton" onclick="ninjaSpoiler(0)" id="ninja0">Open Tech Spoiler ▼</div>
             <div class="ninjahiddenspoiler" id="ninjaClick0">
