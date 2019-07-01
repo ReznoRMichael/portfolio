@@ -6,64 +6,70 @@
             {
                 "h2Class":"programming",
                 "h2Title":"Programming",
-                "h2Description":"Some chosen projects that I've written using <strong>C++ (OOP), HTML5, CSS3, JavaScript, PHP, MySQL, jQuery, Bootstrap 4, C++ Builder.</strong><br> Please check out <a href='https://github.com/ReznoRMichael' target='_blank'>my GitHub</a> for all practice exercises and code. (100+ repositories)"
+                "h2Description":"Some chosen projects that I've written using <strong>C++ (OOP), HTML5, CSS3, JavaScript, PHP, MySQL,Laravel, Vue, jQuery, Bootstrap 4, C++ Builder.</strong><br> Please check out <a href='https://github.com/ReznoRMichael' target='_blank'>my GitHub</a> for all practice exercises and code. (100+ repositories)"
             },
             
             "Thumbnails":
             [
                 {
                     "ID":"0",
-                    "aLink":"https://reznor.tech/online-sequential-number-text-url-link-generator.html",
-                    "pDescription":"<strong>HTML, CSS, JavaScript</strong><br><br>Simple pure JavaScript code for generating custom text/links/URLs with numbers in sequential order of your chosen incrementation steps. Generates custom number of lines and can save them into a .txt file in the following template:<br>[ optional symbol/text ] + [ number ] + [ optional symbol/text ]",
-                    "figCaption":"Online Sequential Number, URL & Text Generator"
-                },
-                {
-                    "ID":"1",
-                    "aLink":"https://reznor.tech/projects/ac-card-memory-game/game.html",
-                    "pDescription":"<strong>HTML, CSS, JavaScript, jQuery, media queries</strong><br><br>A gift for my brother. Based on Pasja Informatyki's idea - but repaired code redundancy, improved look, added auto-generation, restart, transition effects, get rid of bugs. Features random array shuffling using the Fisher-Yates algorithm in pure JavaScript. Runs even on IE11.",
-                    "figCaption":"Assassin's Creed Card Memory Game"
-                },
-                {
-                    "ID":"2",
-                    "aLink":"https://codepen.io/ReznoR/full/bJKyWp",
-                    "pDescription":"<strong>HTML, CSS</strong><br><br>Responsive Web Design Projects - Build a Survey Form. My Survey Form is a simple Front-end for the user about improving my personal technology blog reznor.tech. It has stylized input fields and custom style checkboxes and radio buttons.",
-                    "figCaption":"Front-end Responsive Survey Form"
-                },
-                {
-                    "ID":"3",
-                    "aLink":"https://reznor.tech/projects/php-ep5-newsletter/",
-                    "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Newsletter subscription page. Admin panel for logging in only for admins. Display all newsletter database entries of users. Using PDO library for connections. Catching exceptions. E-mail, login, password, user in database validation checking. Security code sanitization. Checking if entered e-mail already exists. Fetching a SQL table and displaying it in the browser. Session remembering. Counting the number of total records in the database. Logging out (unsetting session). Inserting a new e-mail into the database.",
-                    "figCaption":"Newsletter subscription page + Admin panel"
-                },
-                {
-                    "ID":"4",
-                    "aLink":"https://reznor.tech/projects/php-ep2-4-settlers/",
-                    "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Login page. Registration of new users. Validation of password. Password hashing. Terms and Conditions check. Google reCAPTCHA. SQL injection security - code sanitization. E-mail validation. Password length and login length check. Database connection. Inserting new registered users into database. Checking if user already exists. Exception handling. Reading values from database and displaying in HTML. Date and time handling, checking and validation. Associative arrays. Page redirection. Logging in users. Remembering Sessions between pages. Logging out (unsetting session).",
-                    "figCaption":"PHP & MySQL Back-end Registration Form"
-                },
-                {
-                    "ID":"5",
-                    "aLink":"https://github.com/ReznoRMichael/reznor-windows-operating-system-time-counter",
-                    "pDescription":"<strong>C++ (OOP)</strong><br><br>Ninja invisible Windows application written in C++ Builder 6.0. Counts time when being open and saves it into .txt file every 15min - also after every closing, shutdown or logoff. After launch reads the contents of the file and counts further from where it finished. It also shows the user in the .txt file a translation to hours, minutes and seconds of total time counted.",
-                    "figCaption":"Windows Operating System Time Counter"
-                },
-                {
-                    "ID":"6",
-                    "aLink":"https://github.com/ReznoRMichael/object-cpp-course-pasja-informatyki-episode8-windows-reznor-notepad",
-                    "pDescription":"<strong>C++ (OOP)</strong><br><br>Windows GUI program written in C++ Builder 6.0. It's a Notepad that has all the usual functions, like New, Open, Save, Save As, Exit, Cut, Copy, Paste, Select All, Word Wrap, Change Font, Help, Information about the author and a link to my youtube channel. It has also a custom icon, can save .txt and .ini files. It prompts about confirmation if the text field is not empty or user wants to create a new file.",
-                    "figCaption":"Notepad for Windows"
-                },
-                {
-                    "ID":"7",
                     "aLink":"https://github.com/ReznoRMichael/reznor-custom-link-generator",
                     "pDescription":"<strong>C++ (OOP)</strong><br><br>Program that I've first written in procedural C++, and then rewritten using Classes, Member Functions and a Stopwatch specifically for myself for generating deviantart comments links and saving them into a text file. It asks the user for the custom link text - if you type 0 it will use the default text. Then it asks the user for the starting [link_number], then for the ending [link_number]. Then it calculates how many total links it will generate, starts the timer, and begins saving all the links into generated_links.txt file. After the saving is completed, it stops the timer, and shows the time it took to generate and save the file in seconds.",
                     "figCaption":"Custom Link Generator"
                 },
                 {
-                    "ID":"8",
+                    "ID":"1",
+                    "aLink":"https://github.com/ReznoRMichael/reznor-windows-operating-system-time-counter",
+                    "pDescription":"<strong>C++ (OOP)</strong><br><br>Ninja invisible Windows application written in C++ Builder 6.0. Counts time when being open and saves it into .txt file every 15min - also after every closing, shutdown or logoff. After launch reads the contents of the file and counts further from where it finished. It also shows the user in the .txt file a translation to hours, minutes and seconds of total time counted.",
+                    "figCaption":"Windows Operating System Time Counter"
+                },
+                {
+                    "ID":"2",
                     "aLink":"https://reznor.tech/projects/php-ep6-school/",
-                    "pDescription":"<strong>PHP, MySQL, back-end (PDO), HTML, CSS</strong><br><br>Click for live version. Learning PHP/MySQL and exam exercise. Connecting to a simulated school database. Read data from table. Present the data in a table on screen. Insert data into table. Sanitize entered data. All connections are done using PDO. Session remembers entered form data.",
+                    "pDescription":"<strong>PHP, MySQL, back-end (PDO), HTML, CSS</strong><br><br>Click for live version. Learning PHP/MySQL and exam exercise. Connecting to a simulated student database. Read data from table. Present the data in a table on screen. Insert data into table. Sanitize entered data. All connections are done using PDO. Session remembers entered form data.",
                     "figCaption":"PHP & MySQL Back-end (Student database)"
+                },
+                {
+                    "ID":"3",
+                    "aLink":"https://codepen.io/ReznoR/full/bJKyWp",
+                    "pDescription":"<strong>HTML, CSS</strong><br><br>Responsive Web Design Projects - Build a Survey Form. My Survey Form is a simple Front-end for the user about improving my personal technology blog reznor.tech. It has stylized input fields and custom style checkboxes and radio buttons.",
+                    "figCaption":"Front-end Responsive Survey Form"
+                },
+                {
+                    "ID":"4",
+                    "aLink":"https://reznor.tech/projects/php-ep5-newsletter/",
+                    "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Newsletter subscription page. Admin panel for logging in only for admins. Display all newsletter database entries of users. Using PDO library for connections. Catching exceptions. E-mail, login, password, user in database validation checking. Security code sanitization. Checking if entered e-mail already exists. Fetching a SQL table and displaying it in the browser. Session remembering. Counting the number of total records in the database. Logging out (unsetting session). Inserting a new e-mail into the database.",
+                    "figCaption":"Newsletter subscription page + Admin panel"
+                },
+                {
+                    "ID":"5",
+                    "aLink":"https://github.com/ReznoRMichael/object-cpp-course-pasja-informatyki-episode8-windows-reznor-notepad",
+                    "pDescription":"<strong>C++ (OOP)</strong><br><br>Windows GUI program written in C++ Builder 6.0. It's a Notepad that has all the usual functions, like New, Open, Save, Save As, Exit, Cut, Copy, Paste, Select All, Word Wrap, Change Font, Help, Information about the author and a link to my youtube channel. It has also a custom icon, can save .txt and .ini files. It prompts about confirmation if the text field is not empty or user wants to create a new file.",
+                    "figCaption":"Notepad for Windows"
+                },
+                {
+                    "ID":"6",
+                    "aLink":"https://reznor.tech/projects/php-ep2-4-settlers/",
+                    "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Login page. Registration of new users. Validation of password. Password hashing. Terms and Conditions check. Google reCAPTCHA. SQL injection security - code sanitization. E-mail validation. Password length and login length check. Database connection. Inserting new registered users into database. Checking if user already exists. Exception handling. Reading values from database and displaying in HTML. Date and time handling, checking and validation. Associative arrays. Page redirection. Logging in users. Remembering Sessions between pages. Logging out (unsetting session).",
+                    "figCaption":"PHP & MySQL Back-end Registration Form"
+                },
+                {
+                    "ID":"7",
+                    "aLink":"https://reznor.tech/projects/ac-card-memory-game/game.html",
+                    "pDescription":"<strong>HTML, CSS, JavaScript, jQuery, media queries</strong><br><br>A gift for my brother. Based on Pasja Informatyki's idea - but repaired code redundancy, improved look, added auto-generation, restart, transition effects, get rid of bugs. Features random array shuffling using the Fisher-Yates algorithm in pure JavaScript. Runs even on IE11.",
+                    "figCaption":"Assassin's Creed Card Memory Game"
+                },
+                {
+                    "ID":"8",
+                    "aLink":"https://reznor.tech/online-sequential-number-text-url-link-generator.html",
+                    "pDescription":"<strong>HTML, CSS, JavaScript</strong><br><br>Simple pure JavaScript code for generating custom text/links/URLs with numbers in sequential order of your chosen incrementation steps. Generates custom number of lines and can save them into a .txt file in the following template:<br>[ optional symbol/text ] + [ number ] + [ optional symbol/text ]",
+                    "figCaption":"Online Sequential Number, URL & Text Generator"
+                },
+                {
+                    "ID":"9",
+                    "aLink":"https://reznor.tech/reznorganizer",
+                    "pDescription":"<strong>TDD + MVC + OOP: PHP, Laravel, Vue, SQLite, Tailwind</strong><br><br>Please see my GitHub for detailed info. A simple Test-Driven Development learning project that I did to use by myself and also my family and friends for life organization. I also am doing some additional modifications and personal customization, repairing bugs and adding new features as I learn.",
+                    "figCaption":"Organizer Web App"
                 }
             ]
         },
@@ -201,27 +207,34 @@
                 },
                 {
                     "ID":"3",
+                    "aLink":"shadowwarrior2-",
+                    "pDescription":"<strong>Shadow Warrior 2</strong> (2016)",
+                    "figCaption":"Shadow Warrior 2 (2016)",
+                    "photosAmount":"68"
+                },
+                {
+                    "ID":"4",
                     "aLink":"acsyndicate",
                     "pDescription":"<strong>Assassin's Creed Syndicate</strong> (2015)",
                     "figCaption":"Assassin's Creed Syndicate (2015)",
                     "photosAmount":"41"
                 },
                 {
-                    "ID":"4",
+                    "ID":"5",
                     "aLink":"nfscarbon",
                     "pDescription":"<strong>Need for Speed Carbon</strong> (2006)",
                     "figCaption":"Need for Speed Carbon (2006)",
                     "photosAmount":"2"
                 },
                 {
-                    "ID":"5",
+                    "ID":"6",
                     "aLink":"assettocorsa",
                     "pDescription":"<strong>Assetto Corsa</strong> (2014)",
                     "figCaption":"Assetto Corsa (2014)",
                     "photosAmount":"12"
                 },
                 {
-                    "ID":"6",
+                    "ID":"7",
                     "aLink":"accompetizione",
                     "pDescription":"<strong>Assetto Corsa Competizione</strong> (2019)",
                     "figCaption":"Assetto Corsa Competizione (2019)",

@@ -44,9 +44,41 @@ function ProjectsGenerator(userclick, thumbgroupclick=-1)
 
     switch(userclick)
     {
-        /* ----- Programming & Personal Tech Blog ----- */
+
+        /* ----- Programming (newest first) ----- */
 
         case 0:
+
+        imgExt = ".png";
+
+        for(i=x-1; i>=0; i--)
+        {
+            aLink = jsonObj.projects[userclick].Thumbnails[i].aLink;
+            pDescription = jsonObj.projects[userclick].Thumbnails[i].pDescription;
+            figCaption = jsonObj.projects[userclick].Thumbnails[i].figCaption;
+
+            var thumbnail = [
+                "<div class='col-sm-10 col-md-8 col-lg-6'>",
+                    "<a href='"+aLink+"' target='"+aTarget+"'>",
+                    "<figure>",
+                        "<div class='portfolio-img "+aspectRatio+"'>",
+                            "<img class='b-lazy' src='"+backgroundImage+"' data-src='"+h2Class+"/"+h2Class+i+imgExt+"' alt='"+figCaption+"'>",
+                            "<div class='portfolio-img-overlay'>",
+                                "<p>"+pDescription+"</p>",
+                            "</div>",
+                        "</div>",
+                        "<figcaption>"+figCaption+"</figcaption>",
+                    "</figure>",
+                    "</a>",
+                "</div>"
+            ].join("\n");
+
+            thumbnails += thumbnail;
+        }
+        break; // end case 0
+
+        /* ----- Personal Tech Blog ----- */
+
         case 4:
 
         imgExt = ".png";
@@ -75,7 +107,7 @@ function ProjectsGenerator(userclick, thumbgroupclick=-1)
 
             thumbnails += thumbnail;
         }
-        break; // end case 0, 4
+        break; // end case 4
 
         /* ----- Graphic Design, Photography and Game Photography ----- */
 
@@ -194,7 +226,7 @@ function ProjectsGenerator(userclick, thumbgroupclick=-1)
     function loadBlazy()
     {
         // not really elegant "fix" for Chrome/Opera with 100ms timeout...
-        // hope to fix it properly in the future when I will learn more about what is happening here
+        // hope to fix it properly in the future when I will learn more about AJAX
         setTimeout(function () { bLazy = new Blazy(); }, 100);
     }
 
