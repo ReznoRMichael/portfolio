@@ -83,7 +83,7 @@ p.logo
 .navbar-nav .nav-item .nav-link:active
 {
 	background-color: #FF6600;
-	background-color: var(--rt-orange);
+    background-color: var(--rt-orange);
     color: #000;
     outline: none;
 }
@@ -96,7 +96,7 @@ h2
 .michaelreznor
 {
     padding-top: 0;
-    padding-bottom: 1%;
+    padding-bottom: 1vh;
 }
 .programming:before,
 .graphicdesign:before,

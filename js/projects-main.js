@@ -215,7 +215,7 @@ function ProjectsGenerator(userclick, thumbgroupclick=-1)
 
     //console.log(h2Class);
 
-    function generateAll(callback)
+    function generateAll( callback )
     {
         pageStart += thumbnails += pageEnd;
         document.getElementById("generate").innerHTML = pageStart;
@@ -231,7 +231,7 @@ function ProjectsGenerator(userclick, thumbgroupclick=-1)
     }
 
     // if this function completes, it sends the callback to the function loadBlazy()
-    generateAll(loadBlazy);
+    generateAll( loadBlazy );
 
 }
 
