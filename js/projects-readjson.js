@@ -2,6 +2,10 @@ var jsonObj, h2Class, h2Title, h2Description, aLink, aLongLink, aTarget, pDescri
 var aspectRatio = "16-9";
 var thumbGroup = "", thumbnails = "";
 
+/**
+ * Reads the projects.json file with all projects and parses it to a JS object (jsonObj).
+ * @param callback Asynchronous function.
+ */
 function loadJSON(callback)
 {   
     // new Http request object (asynchronous), both the web page and the XML file it tries to load, must be located on the same server.
@@ -34,8 +38,3 @@ loadJSON(function JSONparse(response) {
         jsonObj = JSON.parse(response);
         //console.log(jsonObj);
     });
-
-function thumbnailArrayLength(userclickcheck)
-{
-    return jsonObj.projects[userclickcheck].Thumbnails.length;
-}

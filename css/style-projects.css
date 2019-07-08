@@ -243,9 +243,15 @@ a:hover .portfolio-img .portfolio-img-overlay
 #foot-git
 { width: 40px; height: 40px; padding: 2px 0px !important; color: #999999; border-radius: 50%; font-size: 1.2em; overflow: hidden; transition: all 0.3s ease-out; }
 #foot-git:hover  { color: #24292e; background-color: #FFFFFF; }
-#foot-lin        { width: 40px; height: 40px; padding: 4px 0px !important; color: #999999; border-radius: 50%; transition: all 0.3s ease-out; }
+
+#foot-lin        
+{ width: 40px; height: 40px; padding: 4px 0px !important; color: #999999; border-radius: 50%; transition: all 0.3s ease-out; }
 #foot-lin:hover  { color: #FFFFFF; background-color: #0077b5; }
-#foot-da         { width: 40px; height: 40px; padding: 5px 0px !important; color: #999999; border-radius: 50%; transition: all 0.3s ease-out; }
+
+#foot-da         
+{ width: 40px; height: 40px; padding: 5px 0px !important; color: #999999; border-radius: 50%; transition: all 0.3s ease-out; }
 #foot-da:hover   { color: #FFFFFF; background-color: #05cc47; }
-#foot-yt         { width: 40px; height: 40px; padding: 5px 0px !important; color: #999999; border-radius: 50%; transition: all 0.3s ease-out; }
+
+#foot-yt         
+{ width: 40px; height: 40px; padding: 5px 0px !important; color: #999999; border-radius: 50%; transition: all 0.3s ease-out; }
 #foot-yt:hover   { color: #FFFFFF; background-color: #ff0000; }
