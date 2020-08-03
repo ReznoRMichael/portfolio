@@ -28,6 +28,13 @@ function ProjectsGenerator(userClick, thumbGroupClick=-1)
         "<div class='row justify-content-center'>"
     ].join("\n");
 
+    var pageEnd = [
+        "</div>",
+        "<a href='#' id='go-up' class='orangebutton' onclick='goToTop($)'>Go to top ▲</a>"
+    ].join("\n");
+
+/* --------------------------- Assign correct aspect ratio to thumbnails ------------------------------ */
+
     switch(userClick)
     {
         case 2:
@@ -39,11 +46,6 @@ function ProjectsGenerator(userClick, thumbGroupClick=-1)
             backgroundImage = "default.png";
             break;
     }
-    
-    var pageEnd = [
-        "</div>",
-        "<a href='#' id='go-up' class='orangebutton' onclick='goToTop($)'>Go to top ▲</a>"
-    ].join("\n");
 
 /* --------------------------- Choose Category ------------------------------ */
 
@@ -61,12 +63,11 @@ function ProjectsGenerator(userClick, thumbGroupClick=-1)
         break; // end case 4
 
         /* ----- Graphic Design, Photography and Game Photography ----- */
-
         case 1:
         case 2:
         case 3:
 
-        /* ----- Generate all Thumbnails of a choosen group if thumbGroupClick > -1 ----- */
+        /* ----- Generate all Thumbnails of a chosen group if thumbGroupClick > -1 ----- */
 
         if(thumbGroupClick > -1)
         {
@@ -79,7 +80,6 @@ function ProjectsGenerator(userClick, thumbGroupClick=-1)
 
             for(n=0; n<numImages; n++)
             {
-                
                 imgSize = "small-";
                 imgImage = h2Class+"/"+imgSize+aLink+n+imgExt;
                 imgSize = "big-";

@@ -1,6 +1,6 @@
 # HTML/CSS/JavaScript - Personal Portfolio
 
-> Personal portfolio which I've written in HTML/CSS/JavaScript. Reads all projects data from .json file and generates them real-time on the page. Link to live version: [Link](https://reznor.tech/projects/)
+> Personal portfolio which I've written in HTML/CSS/JavaScript. Reads all projects data from .json file and generates them real-time on the page. Link to live version: [Link](http://reznortech.rf.gd/projects/)
 
 ## Table of contents
 

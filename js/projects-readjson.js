@@ -1,15 +1,15 @@
 var jsonObj, h2Class, h2Title, h2Description, aLink, aLongLink, aTarget, pDescription, figCaption, backgroundImage, imgImage, imgExt, imgSize, numImages;
 var aspectRatio = "16-9";
-var thumbGroup = "", thumbnails = "";
+var thumbGroup = "",
+    thumbnails = "";
 
 /**
  * Reads the projects.json file with all projects and parses it to a JS object (jsonObj).
  * @param callback Asynchronous function.
  */
-function loadJSON(callback)
-{   
+function loadJSON(callback) {
     // new Http request object (asynchronous), both the web page and the XML file it tries to load, must be located on the same server.
-    var xobj = new XMLHttpRequest(); 
+    var xobj = new XMLHttpRequest();
 
     xobj.overrideMimeType("application/json");
 
@@ -23,18 +23,18 @@ function loadJSON(callback)
 
     // Defines a function to be called when the readyState property changes
     xobj.onreadystatechange = function GetResponseText() {
-            if (xobj.readyState == 4 && xobj.status == "200") {
+        if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
             // Returns the response data as a string
             callback(xobj.responseText);
-            }
+        }
     };
     // Sends the request to the server - Used for GET requests
-    xobj.send(null);  
+    xobj.send(null);
 }
 
 loadJSON(function JSONparse(response) {
     // Parse JSON string into object
-        jsonObj = JSON.parse(response);
-        //console.log(jsonObj);
-    });
+    jsonObj = JSON.parse(response);
+    //console.log(jsonObj);
+});
