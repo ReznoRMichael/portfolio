@@ -25,7 +25,7 @@
                 },
                 {
                     "ID":"2",
-                    "aLink":"http://reznortech.rf.gd/projects/php-ep6-school/",
+                    "aLink":"http://reznortech.epizy.com/projects/php-ep6-school/",
                     "pDescription":"<strong>PHP, MySQL, back-end (PDO), HTML, CSS</strong><br><br>Click for live version. Learning PHP/MySQL and exam exercise. Connecting to a simulated student database. Read data from table. Present the data in a table on screen. Insert data into table. Sanitize entered data. All connections are done using PDO. Session remembers entered form data.",
                     "figCaption":"PHP & MySQL Back-end (Student database)"
                 },
@@ -37,7 +37,7 @@
                 },
                 {
                     "ID":"4",
-                    "aLink":"http://reznortech.rf.gd/projects/php-ep5-newsletter/",
+                    "aLink":"http://reznortech.epizy.com/projects/php-ep5-newsletter/",
                     "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Newsletter subscription page. Admin panel for logging in only for admins. Display all newsletter database entries of users. Using PDO library for connections. Catching exceptions. E-mail, login, password, user in database validation checking. Security code sanitization. Checking if entered e-mail already exists. Fetching a SQL table and displaying it in the browser. Session remembering. Counting the number of total records in the database. Logging out (unsetting session). Inserting a new e-mail into the database.",
                     "figCaption":"Newsletter subscription page + Admin panel"
                 },
@@ -49,25 +49,25 @@
                 },
                 {
                     "ID":"6",
-                    "aLink":"http://reznortech.rf.gd/projects/php-ep2-4-settlers/",
+                    "aLink":"http://reznortech.epizy.com/projects/php-ep2-4-settlers/",
                     "pDescription":"<strong>PHP, MySQL, back-end, HTML, CSS</strong><br><br>Login page. Registration of new users. Validation of password. Password hashing. Terms and Conditions check. Google reCAPTCHA. SQL injection security - code sanitization. E-mail validation. Password length and login length check. Database connection. Inserting new registered users into database. Checking if user already exists. Exception handling. Reading values from database and displaying in HTML. Date and time handling, checking and validation. Associative arrays. Page redirection. Logging in users. Remembering Sessions between pages. Logging out (unsetting session).",
                     "figCaption":"PHP & MySQL Back-end Registration Form"
                 },
                 {
                     "ID":"7",
-                    "aLink":"http://reznortech.rf.gd/projects/ac-card-memory-game/",
+                    "aLink":"http://reznortech.epizy.com/projects/ac-card-memory-game/",
                     "pDescription":"<strong>HTML, CSS, JavaScript, jQuery, media queries</strong><br><br>A gift for my brother. Based on Pasja Informatyki's idea - but repaired code redundancy, improved look, added auto-generation, restart, transition effects, get rid of bugs. Features random array shuffling using the Fisher-Yates algorithm in pure JavaScript. Runs even on IE11.",
                     "figCaption":"Assassin's Creed Card Memory Game"
                 },
                 {
                     "ID":"8",
-                    "aLink":"http://reznortech.rf.gd/online-sequential-number-text-url-link-generator.html",
+                    "aLink":"http://reznortech.epizy.com/online-sequential-number-text-url-link-generator.html",
                     "pDescription":"<strong>HTML, CSS, JavaScript</strong><br><br>Simple pure JavaScript code for generating custom text/links/URLs with numbers in sequential order of your chosen incrementation steps. Generates custom number of lines and can save them into a .txt file in the following template:<br>[ optional symbol/text ] + [ number ] + [ optional symbol/text ]",
                     "figCaption":"Online Sequential Number, URL & Text Generator"
                 },
                 {
                     "ID":"9",
-                    "aLink":"http://reznortech.rf.gd/reznorganizer",
+                    "aLink":"http://reznortech.epizy.com/reznorganizer",
                     "pDescription":"<strong>TDD + MVC + OOP: PHP, Laravel, Vue, SQLite, Tailwind</strong><br><br>Please see my GitHub for detailed info. A simple Test-Driven Development learning project that I did to use by myself and also my family and friends for life organization. I also am doing some additional modifications and personal customization, repairing bugs and adding new features as I learn.",
                     "figCaption":"Organizer Web App"
                 }
@@ -261,31 +261,31 @@
             [
                 {
                     "ID":"0",
-                    "aLink":"http://reznortech.rf.gd/",
+                    "aLink":"http://reznortech.epizy.com/",
                     "pDescription":"<strong>rezno[R].tech<br>Guides, articles, informations, tools, game photos...</strong><br><br>If you are a person who enjoys PC, technology, hardware, software, games, audio, art and you wish to understand them more... then it's the right place.",
                     "figCaption":"rezno[R].tech - Main Page"
                 },
                 {
                     "ID":"1",
-                    "aLink":"http://reznortech.rf.gd/pc-technology.html",
+                    "aLink":"http://reznortech.epizy.com/pc-technology.html",
                     "pDescription":"<strong>PC, Windows, Software and Technology</strong><br><br>PC, Software, Windows Guides, Tips, Tricks, Web Tools. Free guides, tips, tricks, information about PC, software and technologies. Useful Online Web Tools, programs and apps. For beginners and advanced users.",
                     "figCaption":"Category: PC and Technology"
                 },
                 {
                     "ID":"2",
-                    "aLink":"http://reznortech.rf.gd/games-art.html",
+                    "aLink":"http://reznortech.epizy.com/games-art.html",
                     "pDescription":"<strong>Games, Game Photography and Game Art</strong><br><br>All my guides associated with gaming or software used for games. As a hobby I'm also doing Game Photography and creating Photo Albums from most beautiful games ever created.",
                     "figCaption":"Category: Games and Art"
                 },
                 {
                     "ID":"3",
-                    "aLink":"http://reznortech.rf.gd/audio-sound.html",
+                    "aLink":"http://reznortech.epizy.com/audio-sound.html",
                     "pDescription":"<strong>Audio and Sound</strong><br><br>Sound Guides, Information and everything else about Audio and Sound: How to improve your general audio quality and music/games/movies experience on PC and Windows? What software to use? What hardware to buy for your needs? What is the difference between audio formats? Here you will find all the answers.",
                     "figCaption":"Category: Audio and Sound"
                 },
                 {
                     "ID":"4",
-                    "aLink":"http://reznortech.rf.gd/guide-how-upload-instagram-pc-without-android-emulator.html",
+                    "aLink":"http://reznortech.epizy.com/guide-how-upload-instagram-pc-without-android-emulator.html",
                     "pDescription":"<strong>How to upload photos/files on Instagram easily on PC in your browser without installing anything?<br>[ Quick & Easy Guide ]</strong><br><br>Were you always annoyed by Instagram's restrictive policy about uploading photos? Have you wondered if it's possible to upload files on Instagram without installing the app on your phone or an Android emulator on your PC? rezno[R].tech will show you how to do it - easily and just in a few simple steps.",
                     "figCaption":"PC and Technology Guide"
                 },
@@ -297,43 +297,43 @@
                 },
                 {
                     "ID":"6",
-                    "aLink":"http://reznortech.rf.gd/guide-move-games-other-disk-partition-drive-folder-uplay.html",
+                    "aLink":"http://reznortech.epizy.com/guide-move-games-other-disk-partition-drive-folder-uplay.html",
                     "pDescription":"<strong>How to move installed games into another partition, folder, disk or pendrive without downloading it again - UPlay<br>[ Quick & Easy Guide ]</strong><br><br>Ubisoft's UPlay platform currently doesn't have any built-in 'move game to another drive' feature. Nevertheless, nothing is impossible and there is a simple solution for that. You will be probably really surprised how simple it actually is, and that we will only use our Windows system for it.",
                     "figCaption":"Game Guide"
                 },
                 {
                     "ID":"7",
-                    "aLink":"http://reznortech.rf.gd/guide-best-sound-settings-windows.html",
+                    "aLink":"http://reznortech.epizy.com/guide-best-sound-settings-windows.html",
                     "pDescription":"<strong>Best possible global sound settings in Windows Vista/7/8/10.<br>[ Detailed Guide ]</strong><br><br>Have you ever wondered if it's possible to improve your audio quality on PC without changing your hardware audio gear? Yes it is! Here you can find out how in this detailed guide. This big, comprehensive guide is divided into three more specific sub-categories: Most optimal sound settings for music, games, movies [writing in progress]",
                     "figCaption":"Audio and Sound Guide"
                 },
                 {
                     "ID":"8",
-                    "aLink":"http://reznortech.rf.gd/what-is-3d-surround-sound-virtualization.html",
+                    "aLink":"http://reznortech.epizy.com/what-is-3d-surround-sound-virtualization.html",
                     "pDescription":"<strong>What is 3D surround sound virtualization?<br>[ Info Guide ]</strong><br><br>Playing games and watching movies often involves using various software surround sound virtualization algorithms present on most sound cards or in the games itself - like for example Creative's SBX Pro Studio Surround, CMSS-3D, Asus' Dolby Headphone or other built-in technologies like Dolby Atmos for Headphones, Windows Sonic for Headphones.",
                     "figCaption":"Audio and Sound Info Guide"
                 },
                 {
                     "ID":"9",
-                    "aLink":"http://reznortech.rf.gd/guide-3d-sound-games-movies-configuration.html",
+                    "aLink":"http://reznortech.epizy.com/guide-3d-sound-games-movies-configuration.html",
                     "pDescription":"<strong>How to properly configure 3D surround sound virtualization for headphones in Windows Vista/7/8/10.<br>[ Guide ]</strong><br><br>This guide is made for people who like playing games and watching movies on headphones while using various software surround sound virtualization algorithms present on most sound cards - like for example Creative's SBX Pro Studio Surround or older CMSS-3D or Asus' Dolby Headphone. [writing in progress]",
                     "figCaption":"Audio and Sound Guide"
                 },
                 {
                     "ID":"10",
-                    "aLink":"http://reznortech.rf.gd/differences-lossless-lossy-sound-audio-formats.html",
+                    "aLink":"http://reznortech.epizy.com/differences-lossless-lossy-sound-audio-formats.html",
                     "pDescription":"<strong>FLAC vs mp3: Differences in lossless vs lossy audio sound formats<br>[ Quick Information ]</strong><br><br>Is lossless really worth the extra disk space it takes over the lossy formats? Here I will write about the differences between those two - and when and how much they should matter for the end user.",
                     "figCaption":"Audio and Sound Information"
                 },
                 {
                     "ID":"11",
-                    "aLink":"http://reznortech.rf.gd/guide-how-to-install-asio-for-any-sound-card-or-dac.html",
+                    "aLink":"http://reznortech.epizy.com/guide-how-to-install-asio-for-any-sound-card-or-dac.html",
                     "pDescription":"<strong>How to install and enable ASIO for ANY sound card or DAC?<br>[ Quick Guide ]</strong><br><br>In this quick guide you will learn in a few easy steps on how to quickly install and enable ASIO drivers on ANY sound card or USB DAC in Windows through the free tool - ASIO4ALL.",
                     "figCaption":"Audio and Sound Software Guide"
                 },
                 {
                     "ID":"12",
-                    "aLink":"http://reznortech.rf.gd/assetto-corsa-all-car-sounds-collection.html",
+                    "aLink":"http://reznortech.epizy.com/assetto-corsa-all-car-sounds-collection.html",
                     "pDescription":"<strong>Assetto Corsa Car Sounds: The Full Collection<br>[ PC - 4K 60fps ]</strong><br><br>Assetto Corsa has one of the most true-to-life and authentic car sounds recordings to date. This is a tribute I did for the developers of this racing simulator/game: all 178 official cars recorded across all camera views (includes all DLCs and Bonus Packs).",
                     "figCaption":"Audio Quality in Racing Games (178 Videos)"
                 }
