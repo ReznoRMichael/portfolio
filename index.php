@@ -14,7 +14,7 @@
 
             <p>This is a small website that I've written from scratch in HTML, CSS, JavaScript where I'm trying to organize my selected hobbies in 5 different categories: Programming, Graphics Design, Photography, Game Photography and Personal Technology Blog.</p>
 
-            <p>The page is generating everything on-the-fly from a single JSON file in pure JavaScript using a single function that I've written by myself from zero.</p>
+            <p>The page is generating everything on-the-fly from a single JSON file in pure JavaScript.</p>
 
             <p>More info about me is organized on <a href="https://www.linkedin.com/in/michal-stefaniak/" target="_blank">my LinkedIn profile</a>.</p>
 
