@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include_once('header.html'); ?>
+<?php require_once('header.html'); ?>
 
 <!-- Container: Main Content -->
 
@@ -44,4 +44,4 @@
 
 <!-- Footer -->
 
-<?php include_once('footer.html'); ?>
+<?php require_once('footer.html'); ?>
