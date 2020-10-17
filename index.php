@@ -27,11 +27,10 @@
                 — One-Page Design with header.html and footer.html included with PHP<br>
                 — dynamic generation of titles, descriptions, thumbnails, links from one JSON file through a single function<br>
                 — two-dimensional array in JSON file<br>
-                — bLazy to lazy-load image files<br>
                 — file-size web optimized .png and .jpg images (pingo, Irfanview)
                 </p>
                 <p>Problems to fix after gaining more knowledge:<br>
-                — projects-main.js: line 230, issue with bLazy not loading any images on Chrome/Opera after first page load and on slower internet/devices
+                — projects-main.js: issue with bLazy not loading any images on Chrome/Opera after first page load and on slower internet/devices
                 </p>
 
                 <p>Have fun! :)</p>

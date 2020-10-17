@@ -1,12 +1,11 @@
-var bLazy = new Blazy();
+var bLazy; // new Blazy();
 
 /**
  * Generates all the dynamic content on the page from the .json file.
  * @param userClick number, the category that the user has clicked on the nav menu.
  * @param thumbGroupClick number, the chosen sub-group of the given main category. Used for Graphic Design, Photography and Game Photography categories.
  */
-function ProjectsGenerator(userClick, thumbGroupClick=-1)
-{
+function ProjectsGenerator(userClick, thumbGroupClick = -1) {
     var x = jsonObj.projects[userClick].Thumbnails.length; // how many projects (sub-categories) to show - calculated from .json current project array length
 
     document.getElementById("generate").innerHTML = ""; // clear the contents each time user clicks the category button (safety)
@@ -22,8 +21,8 @@ function ProjectsGenerator(userClick, thumbGroupClick=-1)
 
     var pageStart = [
         "<header>",
-        "<h2 class='"+h2Class+"'>"+h2Title+"</h2>",
-        "<p>"+h2Description+"</p>",
+        "<h2 class='" + h2Class + "'>" + h2Title + "</h2>",
+        "<p>" + h2Description + "</p>",
         "</header>",
         "<div class='row justify-content-center'>"
     ].join("\n");
@@ -33,10 +32,11 @@ function ProjectsGenerator(userClick, thumbGroupClick=-1)
         "<a href='#' id='go-up' class='orangebutton' onclick='goToTop($)'>Go to top ▲</a>"
     ].join("\n");
 
-/* --------------------------- Assign correct aspect ratio to thumbnails ------------------------------ */
+    // bLazy = new Blazy();
 
-    switch(userClick)
-    {
+    /* --------------------------- Assign correct aspect ratio to thumbnails ------------------------------ */
+
+    switch (userClick) {
         case 2:
             aspectRatio = "aspect-ratio-3-2";
             backgroundImage = "default-3-2.png";
@@ -47,210 +47,210 @@ function ProjectsGenerator(userClick, thumbGroupClick=-1)
             break;
     }
 
-/* --------------------------- Choose Category ------------------------------ */
+    /* --------------------------- Choose Category ------------------------------ */
 
-    switch(userClick)
-    {
+    switch (userClick) {
 
         /* ----- Programming (latest first) ----- */
         case 0:
-        thumbnails = generateThumbnails( '.png', x, 'latest' );
-        break; // end case 0
+            thumbnails = generateThumbnails('.png', x, 'latest');
+            break; // end case 0
 
-        /* ----- Personal Tech Blog ----- */
+            /* ----- Personal Tech Blog ----- */
         case 4:
-        thumbnails = generateThumbnails( '.png', x );
-        break; // end case 4
+            thumbnails = generateThumbnails('.png', x);
+            break; // end case 4
 
-        /* ----- Graphic Design, Photography and Game Photography ----- */
+            /* ----- Graphic Design, Photography and Game Photography ----- */
         case 1:
         case 2:
         case 3:
 
-        /* ----- Generate all Thumbnails of a chosen group if thumbGroupClick > -1 ----- */
+            /* ----- Generate all Thumbnails of a chosen group if thumbGroupClick > -1 ----- */
 
-        if(thumbGroupClick > -1)
-        {
+            if (thumbGroupClick > -1) {
 
-            aLink = jsonObj.projects[userClick].Thumbnails[thumbGroupClick].aLink;
-            pDescription = jsonObj.projects[userClick].Thumbnails[thumbGroupClick].pDescription;
-            figCaption = jsonObj.projects[userClick].Thumbnails[thumbGroupClick].figCaption;
-            numImages = jsonObj.projects[userClick].Thumbnails[thumbGroupClick].photosAmount; // read number of photos from each sub-category in .JSON
-            parseInt(numImages); // convert string from .JSON to Int
-
-            for(n=0; n<numImages; n++)
-            {
-                imgSize = "small-";
-                imgImage = h2Class+"/"+imgSize+aLink+n+imgExt;
-                imgSize = "big-";
-                aLongLink = "'"+h2Class+"/"+imgSize+aLink+n+imgExt+"' target='"+aTarget+"'";
-
-                var thumbnail = [
-                    "<div class='col-sm-10 col-md-8 col-lg-6'>",
-                        "<a href="+aLongLink+">",
-                        "<figure>",
-                            "<div class='portfolio-img "+aspectRatio+"'>",
-                                "<img class='b-lazy' src='"+backgroundImage+"' data-src='"+imgImage+"' alt='"+figCaption+"'>",
-                                "<div class='portfolio-img-overlay'>",
-                                    "<p>"+pDescription+"<br><br>Click to view the original image</p>",
-                                "</div>",
-                            "</div>",
-                            "<figcaption>"+figCaption+" #"+n+"</figcaption>",
-                        "</figure>",
-                        "</a>",
-                    "</div>"
-                ].join("\n");
-
-                pageStart = [
-                    "<header>",
-                    "<h2 class='"+h2Class+"'>"+h2Title+" - "+figCaption+"</h2>",
-                    "<p><a href='#' class='orangebutton' onclick='ProjectsGenerator("+userClick+")'>◄ Go Back to Categories</a></p>",
-                    "</header>",
-                    "<div class='row justify-content-center'>"
-                ].join("\n");
-
-                pageEnd = [
-                    "</div>",
-                    "<a href='#' class='orangebutton' onclick='ProjectsGenerator("+userClick+")'>◄ Go Back to Categories</a>",
-                    "<a href='#' id='go-up' class='orangebutton' onclick='goToTop($)'>Go to top ▲</a>"
-                ].join("\n");
-
-                thumbnails += thumbnail;
-            }
-        }
-
-        /* Generate thumbnail group of the sub-categories if thumbGroupClick = 0 */
-
-        else
-        {
-            for(i=0; i<x; i++)
-            {
-                aLink = jsonObj.projects[userClick].Thumbnails[i].aLink;
-                aLongLink = "'#' onclick='ProjectsGenerator("+userClick+","+i+")'";
-                pDescription = jsonObj.projects[userClick].Thumbnails[i].pDescription;
-                figCaption = jsonObj.projects[userClick].Thumbnails[i].figCaption;
-                numImages = jsonObj.projects[userClick].Thumbnails[i].photosAmount; // read number of photos from each sub-category in .JSON
+                aLink = jsonObj.projects[userClick].Thumbnails[thumbGroupClick].aLink;
+                pDescription = jsonObj.projects[userClick].Thumbnails[thumbGroupClick].pDescription;
+                figCaption = jsonObj.projects[userClick].Thumbnails[thumbGroupClick].figCaption;
+                numImages = jsonObj.projects[userClick].Thumbnails[thumbGroupClick].photosAmount; // read number of photos from each sub-category in .JSON
                 parseInt(numImages); // convert string from .JSON to Int
 
-                imgSize = "thumb-";
-                imgImage = h2Class+"/"+imgSize+aLink+imgExt;
+                for (n = 0; n < numImages; n++) {
+                    imgSize = "small-";
+                    imgImage = h2Class + "/" + imgSize + aLink + n + imgExt;
+                    imgSize = "big-";
+                    aLongLink = "'" + h2Class + "/" + imgSize + aLink + n + imgExt + "' target='" + aTarget + "'";
 
-                var thumbnail = [
-                    "<div class='col-sm-10 col-md-8 col-lg-6'>",
-                        "<a href="+aLongLink+">",
+                    var thumbnail = [
+                        "<div class='col-sm-10 col-md-8 col-lg-6'>",
+                        "<a href=" + aLongLink + ">",
                         "<figure>",
-                            "<div class='portfolio-img "+aspectRatio+"'>",
-                                "<img class='b-lazy' src='"+backgroundImage+"' data-src='"+imgImage+"' alt='"+figCaption+"'>",
-                                "<div class='portfolio-img-overlay'>",
-                                    "<p>"+pDescription+"<br><br>Click to view the full gallery ( "+numImages+" images )</p>",
-                                "</div>",
-                            "</div>",
-                            "<figcaption>"+figCaption+"</figcaption>",
+                        "<div class='portfolio-img " + aspectRatio + "'>",
+                        // "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + imgImage + "' alt='" + figCaption + "'>",
+                        "<img class='b-lazy' src='" + imgImage + "' alt='" + figCaption + "'>",
+                        "<div class='portfolio-img-overlay'>",
+                        "<p>" + pDescription + "<br><br>Click to view the original image</p>",
+                        "</div>",
+                        "</div>",
+                        "<figcaption>" + figCaption + " #" + n + "</figcaption>",
                         "</figure>",
                         "</a>",
-                    "</div>"
-                ].join("\n");
+                        "</div>"
+                    ].join("\n");
 
-                thumbnails += thumbnail; // merge the current group with the rest
+                    pageStart = [
+                        "<header>",
+                        "<h2 class='" + h2Class + "'>" + h2Title + " - " + figCaption + "</h2>",
+                        "<p><a href='#' class='orangebutton' onclick='ProjectsGenerator(" + userClick + ")'>◄ Go Back to Categories</a></p>",
+                        "</header>",
+                        "<div class='row justify-content-center'>"
+                    ].join("\n");
+
+                    pageEnd = [
+                        "</div>",
+                        "<a href='#' class='orangebutton' onclick='ProjectsGenerator(" + userClick + ")'>◄ Go Back to Categories</a>",
+                        "<a href='#' id='go-up' class='orangebutton' onclick='goToTop($)'>Go to top ▲</a>"
+                    ].join("\n");
+
+                    thumbnails += thumbnail;
+                }
             }
-        }
-        break; // end case 1, 2, 3
+
+            /* Generate thumbnail group of the sub-categories if thumbGroupClick = 0 */
+            else {
+                for (i = 0; i < x; i++) {
+                    aLink = jsonObj.projects[userClick].Thumbnails[i].aLink;
+                    aLongLink = "'#' onclick='ProjectsGenerator(" + userClick + "," + i + ")'";
+                    pDescription = jsonObj.projects[userClick].Thumbnails[i].pDescription;
+                    figCaption = jsonObj.projects[userClick].Thumbnails[i].figCaption;
+                    numImages = jsonObj.projects[userClick].Thumbnails[i].photosAmount; // read number of photos from each sub-category in .JSON
+                    parseInt(numImages); // convert string from .JSON to Int
+
+                    imgSize = "thumb-";
+                    imgImage = h2Class + "/" + imgSize + aLink + imgExt;
+
+                    var thumbnail = [
+                        "<div class='col-sm-10 col-md-8 col-lg-6'>",
+                        "<a href=" + aLongLink + ">",
+                        "<figure>",
+                        "<div class='portfolio-img " + aspectRatio + "'>",
+                        // "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + imgImage + "' alt='" + figCaption + "'>",
+                        "<img class='b-lazy' src='" + imgImage + "' alt='" + figCaption + "'>",
+                        "<div class='portfolio-img-overlay'>",
+                        "<p>" + pDescription + "<br><br>Click to view the full gallery ( " + numImages + " images )</p>",
+                        "</div>",
+                        "</div>",
+                        "<figcaption>" + figCaption + "</figcaption>",
+                        "</figure>",
+                        "</a>",
+                        "</div>"
+                    ].join("\n");
+
+                    thumbnails += thumbnail; // merge the current group with the rest
+                }
+            }
+            break; // end case 1, 2, 3
 
         default:
 
-        /* ----- All undefined Cases & Categories ----- */
+            /* ----- All undefined Cases & Categories ----- */
 
-        break; // end default
+            break; // end default
 
     }
 
 
-/* ------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------------------ */
     /**
      * Generates all the thumbnails after the user's click on a category.
      * @param imgExt string, the file extension used for thumbnails (.jpg or .png)
      * @param iStop number, where to stop iterating over the loop (Thumbnails.length)
      * @param order string, the order of the viewing (latest or null)
      */
-    function generateThumbnails( imgExt, iStop, order )
-    {
-        if(order === 'latest')
-        {
-            for(i=iStop-1; i>=0; i--)
-            {
-                aLink = jsonObj.projects[userClick].Thumbnails[i].aLink;
-                pDescription = jsonObj.projects[userClick].Thumbnails[i].pDescription;
-                figCaption = jsonObj.projects[userClick].Thumbnails[i].figCaption;
-    
-                var thumbnail = [
-                    "<div class='col-sm-10 col-md-8 col-lg-6'>",
-                        "<a href='"+aLink+"' target='"+aTarget+"'>",
-                        "<figure>",
-                            "<div class='portfolio-img "+aspectRatio+"'>",
-                                "<img class='b-lazy' src='"+backgroundImage+"' data-src='"+h2Class+"/"+h2Class+i+imgExt+"' alt='"+figCaption+"'>",
-                                "<div class='portfolio-img-overlay'>",
-                                    "<p>"+pDescription+"</p>",
-                                "</div>",
-                            "</div>",
-                            "<figcaption>"+figCaption+"</figcaption>",
-                        "</figure>",
-                        "</a>",
-                    "</div>"
-                ].join("\n");
-    
-                thumbnails += thumbnail;
-            }
-        }
-        else
-        {
-            for(i=0; i<iStop; i++)
-            {
+    function generateThumbnails(imgExt, iStop, order) {
+        if (order === 'latest') {
+            for (i = iStop - 1; i >= 0; i--) {
                 aLink = jsonObj.projects[userClick].Thumbnails[i].aLink;
                 pDescription = jsonObj.projects[userClick].Thumbnails[i].pDescription;
                 figCaption = jsonObj.projects[userClick].Thumbnails[i].figCaption;
 
                 var thumbnail = [
                     "<div class='col-sm-10 col-md-8 col-lg-6'>",
-                        "<a href='"+aLink+"' target='"+aTarget+"'>",
-                        "<figure>",
-                            "<div class='portfolio-img "+aspectRatio+"'>",
-                                "<img class='b-lazy' src='"+backgroundImage+"' data-src='"+h2Class+"/"+h2Class+i+imgExt+"' alt='"+figCaption+"'>",
-                                "<div class='portfolio-img-overlay'>",
-                                    "<p>"+pDescription+"</p>",
-                                "</div>",
-                            "</div>",
-                            "<figcaption>"+figCaption+"</figcaption>",
-                        "</figure>",
-                        "</a>",
+                    "<a href='" + aLink + "' target='" + aTarget + "'>",
+                    "<figure>",
+                    "<div class='portfolio-img " + aspectRatio + "'>",
+                    // "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
+                    "<img class='b-lazy' src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
+                    "<div class='portfolio-img-overlay'>",
+                    "<p>" + pDescription + "</p>",
+                    "</div>",
+                    "</div>",
+                    "<figcaption>" + figCaption + "</figcaption>",
+                    "</figure>",
+                    "</a>",
+                    "</div>"
+                ].join("\n");
+
+                thumbnails += thumbnail;
+            }
+        } else {
+            for (i = 0; i < iStop; i++) {
+                aLink = jsonObj.projects[userClick].Thumbnails[i].aLink;
+                pDescription = jsonObj.projects[userClick].Thumbnails[i].pDescription;
+                figCaption = jsonObj.projects[userClick].Thumbnails[i].figCaption;
+
+                var thumbnail = [
+                    "<div class='col-sm-10 col-md-8 col-lg-6'>",
+                    "<a href='" + aLink + "' target='" + aTarget + "'>",
+                    "<figure>",
+                    "<div class='portfolio-img " + aspectRatio + "'>",
+                    // "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
+                    "<img class='b-lazy' src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
+                    "<div class='portfolio-img-overlay'>",
+                    "<p>" + pDescription + "</p>",
+                    "</div>",
+                    "</div>",
+                    "<figcaption>" + figCaption + "</figcaption>",
+                    "</figure>",
+                    "</a>",
                     "</div>"
                 ].join("\n");
 
                 thumbnails += thumbnail;
             }
         }
-        
+
         return thumbnails;
     }
-/* ------------------------------------------------------------------------------------ */
-// Appends all generated thumbnails to the #generate div (views them)
-/* ------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------------------ */
+    // Appends all generated thumbnails to the #generate div (views them)
+    /* ------------------------------------------------------------------------------------ */
 
-    function viewAllThumbnails( callback )
-    {
+    function viewAllThumbnails(callback) {
         pageStart += thumbnails += pageEnd;
         document.getElementById("generate").innerHTML = pageStart;
-        callback();
+
+        let bLazyImages = document.querySelectorAll("img.b-lazy");
+        bLazyImages.forEach((img) => {
+            img.classList.add("b-loaded");
+        });
+        // return callback();
     }
 
+    viewAllThumbnails();
+/* 
     // this function starts only after the function viewAllThumbnails() has completed
-    function loadBlazy()
-    {
+    function loadBlazy() {
         // not really elegant "fix" for Chrome/Opera with 100ms timeout...
         // hope to fix it properly in the future when I will learn more about AJAX
-        setTimeout(function () { bLazy = new Blazy(); }, 100);
+        // setTimeout(function () { bLazy = new Blazy(); }, 100);
+        // let blazyTemp = new Blazy();
+        bLazy.revalidate();
+        console.log(bLazy);
+        return true;
     }
 
     // if this function completes, it sends the callback to the function loadBlazy()
-    viewAllThumbnails( loadBlazy );
-
+    bLazy = viewAllThumbnails(loadBlazy); */
 }
