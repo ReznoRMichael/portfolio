@@ -15,6 +15,11 @@ body {
     font-size: 20px;
 }
 
+#generate {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 ::selection {
     background: #FF6600;
     text-shadow: none;
@@ -334,6 +339,10 @@ a:hover .portfolio-img .portfolio-img-overlay {
     color: #000;
     background-color: #FF6600;
     background-color: var(--rt-orange);
+}
+
+#generate a:hover.orangebutton  {
+    color: #000;
 }
 
 .ninjahiddenspoiler {
