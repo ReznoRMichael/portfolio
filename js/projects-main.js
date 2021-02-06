@@ -1,4 +1,5 @@
-var bLazy; // new Blazy();
+let BLAZY = ""; // new Blazy();
+window.BLAZY = BLAZY;
 
 /**
  * Generates all the dynamic content on the page from the .json file.
@@ -8,6 +9,7 @@ var bLazy; // new Blazy();
 function ProjectsGenerator(userClick, thumbGroupClick = -1) {
     var x = jsonObj.projects[userClick].Thumbnails.length; // how many projects (sub-categories) to show - calculated from .json current project array length
 
+    BLAZY = ""; // reset bLazy object
     document.getElementById("generate").innerHTML = ""; // clear the contents each time user clicks the category button (safety)
     thumbnails = ""; // clear the contents each time user clicks the category button
     thumbGroup = ""; // clear the contents each time user clicks the category button
@@ -39,11 +41,11 @@ function ProjectsGenerator(userClick, thumbGroupClick = -1) {
     switch (userClick) {
         case 2:
             aspectRatio = "aspect-ratio-3-2";
-            backgroundImage = "default-3-2.png";
+            backgroundImage = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAn8AAAGqAQMAAABAm7C5AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADhJREFUeNrtwQENAAAAwiD7pzbHN2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEHYbKAAGgJIvbAAAAAElFTkSuQmCC";
             break;
         default:
             aspectRatio = "aspect-ratio-16-9";
-            backgroundImage = "default.png";
+            backgroundImage = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAFoAQMAAAD9/NgSAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADJJREFUeNrtwQEBAAAIAqD+r07dARwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA83HoAAGKJJ+xAAAAAElFTkSuQmCC";
             break;
     }
 
@@ -87,8 +89,8 @@ function ProjectsGenerator(userClick, thumbGroupClick = -1) {
                         "<a href=" + aLongLink + ">",
                         "<figure>",
                         "<div class='portfolio-img " + aspectRatio + "'>",
-                        // "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + imgImage + "' alt='" + figCaption + "'>",
-                        "<img class='b-lazy' src='" + imgImage + "' alt='" + figCaption + "'>",
+                        "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + imgImage + "' alt='" + figCaption + "'>",
+                        // "<img class='b-lazy' src='" + imgImage + "' alt='" + figCaption + "'>",
                         "<div class='portfolio-img-overlay'>",
                         "<p>" + pDescription + "<br><br>Click to view the original image</p>",
                         "</div>",
@@ -135,8 +137,8 @@ function ProjectsGenerator(userClick, thumbGroupClick = -1) {
                         "<a href=" + aLongLink + ">",
                         "<figure>",
                         "<div class='portfolio-img " + aspectRatio + "'>",
-                        // "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + imgImage + "' alt='" + figCaption + "'>",
-                        "<img class='b-lazy' src='" + imgImage + "' alt='" + figCaption + "'>",
+                        "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + imgImage + "' alt='" + figCaption + "'>",
+                        // "<img class='b-lazy' src='" + imgImage + "' alt='" + figCaption + "'>",
                         "<div class='portfolio-img-overlay'>",
                         "<p>" + pDescription + "<br><br>Click to view the full gallery ( " + numImages + " images )</p>",
                         "</div>",
@@ -180,8 +182,8 @@ function ProjectsGenerator(userClick, thumbGroupClick = -1) {
                     "<a href='" + aLink + "' target='" + aTarget + "'>",
                     "<figure>",
                     "<div class='portfolio-img " + aspectRatio + "'>",
-                    // "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
-                    "<img class='b-lazy' src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
+                    "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
+                    // "<img class='b-lazy' src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
                     "<div class='portfolio-img-overlay'>",
                     "<p>" + pDescription + "</p>",
                     "</div>",
@@ -205,8 +207,8 @@ function ProjectsGenerator(userClick, thumbGroupClick = -1) {
                     "<a href='" + aLink + "' target='" + aTarget + "'>",
                     "<figure>",
                     "<div class='portfolio-img " + aspectRatio + "'>",
-                    // "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
-                    "<img class='b-lazy' src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
+                    "<img class='b-lazy' src='" + backgroundImage + "' data-src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
+                    // "<img class='b-lazy' src='" + h2Class + "/" + h2Class + i + imgExt + "' alt='" + figCaption + "'>",
                     "<div class='portfolio-img-overlay'>",
                     "<p>" + pDescription + "</p>",
                     "</div>",
@@ -231,26 +233,16 @@ function ProjectsGenerator(userClick, thumbGroupClick = -1) {
         pageStart += thumbnails += pageEnd;
         document.getElementById("generate").innerHTML = pageStart;
 
-        let bLazyImages = document.querySelectorAll("img.b-lazy");
-        bLazyImages.forEach((img) => {
-            img.classList.add("b-loaded");
-        });
-        // return callback();
+        $(window).on("load", callback()); // LoadBlazy
     }
 
-    viewAllThumbnails();
-/* 
-    // this function starts only after the function viewAllThumbnails() has completed
-    function loadBlazy() {
-        // not really elegant "fix" for Chrome/Opera with 100ms timeout...
-        // hope to fix it properly in the future when I will learn more about AJAX
-        // setTimeout(function () { bLazy = new Blazy(); }, 100);
-        // let blazyTemp = new Blazy();
-        bLazy.revalidate();
-        console.log(bLazy);
-        return true;
-    }
+    viewAllThumbnails(LoadBlazy);
 
-    // if this function completes, it sends the callback to the function loadBlazy()
-    bLazy = viewAllThumbnails(loadBlazy); */
+} // end function ProjectsGenerator()
+
+/**
+ * Starts the script for lazy-loading images. Initialize bLazy
+ */
+function LoadBlazy() {
+    BLAZY = new Blazy();
 }
