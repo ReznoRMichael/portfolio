@@ -61,13 +61,13 @@
                 },
                 {
                     "ID":"8",
-                    "aLink":"http://reznortech.rf.gd/online-sequential-number-text-url-link-generator.html",
+                    "aLink":"http://reznortech.rf.gd/online-sequential-number-text-url-link-generator.php",
                     "pDescription":"<strong>HTML, CSS, JavaScript</strong><br><br>Simple pure JavaScript code for generating custom text/links/URLs with numbers in sequential order of your chosen incrementation steps. Generates custom number of lines and can save them into a .txt file in the following template:<br>[ optional symbol/text ] + [ number ] + [ optional symbol/text ]",
                     "figCaption":"Online Sequential Number, URL & Text Generator"
                 },
                 {
                     "ID":"9",
-                    "aLink":"http://reznortech.rf.gd/reznorganizer",
+                    "aLink":"https://github.com/ReznoRMichael/Reznorganizer",
                     "pDescription":"<strong>TDD + MVC + OOP: PHP, Laravel, Vue, SQLite, Tailwind</strong><br><br>Please see my GitHub for detailed info. A simple Test-Driven Development learning project that I did to use by myself and also my family and friends for life organization. I also am doing some additional modifications and personal customization, repairing bugs and adding new features as I learn.",
                     "figCaption":"Organizer Web App"
                 },
@@ -81,7 +81,7 @@
                     "ID":"11",
                     "aLink":"http://reznortech.rf.gd/hollow-knight-completion",
                     "pDescription":"<strong>HTML, CSS, JavaScript, JSON</strong><br><br>Online JavaScript Tool that analyzes a Hollow Knight game player's Save File and shows them what they completed, what remains to do, shows game statistics. I also designed a system of hints which gives a clue to the player based on their current progress in the game.",
-                    "figCaption":"Online Save File Analyzer for Hollow Knight"
+                    "figCaption":"Web Save File Analyzer for Hollow Knight"
                 }
             ]
         },
@@ -279,25 +279,25 @@
                 },
                 {
                     "ID":"1",
-                    "aLink":"http://reznortech.rf.gd/pc-technology.html",
+                    "aLink":"http://reznortech.rf.gd/pc-technology.php",
                     "pDescription":"<strong>PC, Windows, Software and Technology</strong><br><br>PC, Software, Windows Guides, Tips, Tricks, Web Tools. Free guides, tips, tricks, information about PC, software and technologies. Useful Online Web Tools, programs and apps. For beginners and advanced users.",
                     "figCaption":"Category: PC and Technology"
                 },
                 {
                     "ID":"2",
-                    "aLink":"http://reznortech.rf.gd/games-art.html",
+                    "aLink":"http://reznortech.rf.gd/games-art.php",
                     "pDescription":"<strong>Games, Game Photography and Game Art</strong><br><br>All my guides associated with gaming or software used for games. As a hobby I'm also doing Game Photography and creating Photo Albums from most beautiful games ever created.",
                     "figCaption":"Category: Games and Art"
                 },
                 {
                     "ID":"3",
-                    "aLink":"http://reznortech.rf.gd/audio-sound.html",
+                    "aLink":"http://reznortech.rf.gd/audio-sound.php",
                     "pDescription":"<strong>Audio and Sound</strong><br><br>Sound Guides, Information and everything else about Audio and Sound: How to improve your general audio quality and music/games/movies experience on PC and Windows? What software to use? What hardware to buy for your needs? What is the difference between audio formats? Here you will find all the answers.",
                     "figCaption":"Category: Audio and Sound"
                 },
                 {
                     "ID":"4",
-                    "aLink":"http://reznortech.rf.gd/guide-how-upload-instagram-pc-without-android-emulator.html",
+                    "aLink":"http://reznortech.rf.gd/guide-how-upload-instagram-pc-without-android-emulator.php",
                     "pDescription":"<strong>How to upload photos/files on Instagram easily on PC in your browser without installing anything?<br>[ Quick & Easy Guide ]</strong><br><br>Were you always annoyed by Instagram's restrictive policy about uploading photos? Have you wondered if it's possible to upload files on Instagram without installing the app on your phone or an Android emulator on your PC? rezno[R].tech will show you how to do it - easily and just in a few simple steps.",
                     "figCaption":"PC and Technology Guide"
                 },
@@ -309,43 +309,43 @@
                 },
                 {
                     "ID":"6",
-                    "aLink":"http://reznortech.rf.gd/guide-move-games-other-disk-partition-drive-folder-uplay.html",
+                    "aLink":"http://reznortech.rf.gd/guide-move-games-other-disk-partition-drive-folder-uplay.php",
                     "pDescription":"<strong>How to move installed games into another partition, folder, disk or pendrive without downloading it again - UPlay<br>[ Quick & Easy Guide ]</strong><br><br>Ubisoft's UPlay platform currently doesn't have any built-in 'move game to another drive' feature. Nevertheless, nothing is impossible and there is a simple solution for that. You will be probably really surprised how simple it actually is, and that we will only use our Windows system for it.",
                     "figCaption":"Game Guide"
                 },
                 {
                     "ID":"7",
-                    "aLink":"http://reznortech.rf.gd/guide-best-sound-settings-windows.html",
+                    "aLink":"http://reznortech.rf.gd/guide-best-sound-settings-windows.php",
                     "pDescription":"<strong>Best possible global sound settings in Windows Vista/7/8/10.<br>[ Detailed Guide ]</strong><br><br>Have you ever wondered if it's possible to improve your audio quality on PC without changing your hardware audio gear? Yes it is! Here you can find out how in this detailed guide. This big, comprehensive guide is divided into three more specific sub-categories: Most optimal sound settings for music, games, movies [writing in progress]",
                     "figCaption":"Audio and Sound Guide"
                 },
                 {
                     "ID":"8",
-                    "aLink":"http://reznortech.rf.gd/what-is-3d-surround-sound-virtualization.html",
+                    "aLink":"http://reznortech.rf.gd/what-is-3d-surround-sound-virtualization.php",
                     "pDescription":"<strong>What is 3D surround sound virtualization?<br>[ Info Guide ]</strong><br><br>Playing games and watching movies often involves using various software surround sound virtualization algorithms present on most sound cards or in the games itself - like for example Creative's SBX Pro Studio Surround, CMSS-3D, Asus' Dolby Headphone or other built-in technologies like Dolby Atmos for Headphones, Windows Sonic for Headphones.",
                     "figCaption":"Audio and Sound Info Guide"
                 },
                 {
                     "ID":"9",
-                    "aLink":"http://reznortech.rf.gd/guide-3d-sound-games-movies-configuration.html",
+                    "aLink":"http://reznortech.rf.gd/guide-3d-sound-games-movies-configuration.php",
                     "pDescription":"<strong>How to properly configure 3D surround sound virtualization for headphones in Windows Vista/7/8/10.<br>[ Guide ]</strong><br><br>This guide is made for people who like playing games and watching movies on headphones while using various software surround sound virtualization algorithms present on most sound cards - like for example Creative's SBX Pro Studio Surround or older CMSS-3D or Asus' Dolby Headphone. [writing in progress]",
                     "figCaption":"Audio and Sound Guide"
                 },
                 {
                     "ID":"10",
-                    "aLink":"http://reznortech.rf.gd/differences-lossless-lossy-sound-audio-formats.html",
+                    "aLink":"http://reznortech.rf.gd/differences-lossless-lossy-sound-audio-formats.php",
                     "pDescription":"<strong>FLAC vs mp3: Differences in lossless vs lossy audio sound formats<br>[ Quick Information ]</strong><br><br>Is lossless really worth the extra disk space it takes over the lossy formats? Here I will write about the differences between those two - and when and how much they should matter for the end user.",
                     "figCaption":"Audio and Sound Information"
                 },
                 {
                     "ID":"11",
-                    "aLink":"http://reznortech.rf.gd/guide-how-to-install-asio-for-any-sound-card-or-dac.html",
+                    "aLink":"http://reznortech.rf.gd/guide-how-to-install-asio-for-any-sound-card-or-dac.php",
                     "pDescription":"<strong>How to install and enable ASIO for ANY sound card or DAC?<br>[ Quick Guide ]</strong><br><br>In this quick guide you will learn in a few easy steps on how to quickly install and enable ASIO drivers on ANY sound card or USB DAC in Windows through the free tool - ASIO4ALL.",
                     "figCaption":"Audio and Sound Software Guide"
                 },
                 {
                     "ID":"12",
-                    "aLink":"http://reznortech.rf.gd/assetto-corsa-all-car-sounds-collection.html",
+                    "aLink":"http://reznortech.rf.gd/assetto-corsa-all-car-sounds-collection.php",
                     "pDescription":"<strong>Assetto Corsa Car Sounds: The Full Collection<br>[ PC - 4K 60fps ]</strong><br><br>Assetto Corsa has one of the most true-to-life and authentic car sounds recordings to date. This is a tribute I did for the developers of this racing simulator/game: all 178 official cars recorded across all camera views (includes all DLCs and Bonus Packs).",
                     "figCaption":"Audio Quality in Racing Games (178 Videos)"
                 }

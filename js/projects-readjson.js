@@ -25,8 +25,8 @@ function loadJSON(callback) {
     xobj.onreadystatechange = function GetResponseText() {
         if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-            // Returns the response data as a string
-            callback(xobj.responseText);
+            // JSONparse processes the response data as a string
+            callback(xobj.responseText); // the same as JSONparse(xobj.responseText)
         }
     };
     // Sends the request to the server - Used for GET requests
