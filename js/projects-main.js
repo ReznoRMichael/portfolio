@@ -229,14 +229,14 @@ function ProjectsGenerator(userClick, thumbGroupClick = -1) {
     // Appends all generated thumbnails to the #generate div (views them)
     /* ------------------------------------------------------------------------------------ */
 
-    function viewAllThumbnails(callback) {
-        pageStart += thumbnails += pageEnd;
-        document.getElementById("generate").innerHTML = pageStart;
+    function viewAllThumbnails(contents, callback) {
+
+        document.getElementById("generate").innerHTML = contents;
 
         $(window).on("load", callback()); // LoadBlazy
     }
 
-    viewAllThumbnails(LoadBlazy);
+    viewAllThumbnails(pageStart + thumbnails + pageEnd, LoadBlazy);
 
 } // end function ProjectsGenerator()
 
