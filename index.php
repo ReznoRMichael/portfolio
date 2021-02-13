@@ -29,9 +29,6 @@
                 — two-dimensional array in JSON file<br>
                 — file-size web optimized .png and .jpg images (pingo, Irfanview)
                 </p>
-                <p>Problems to fix after gaining more knowledge:<br>
-                — projects-main.js: issue with bLazy not loading any images on Chrome/Opera after first page load and on slower internet/devices
-                </p>
 
                 <p>Have fun! :)</p>
             </div>

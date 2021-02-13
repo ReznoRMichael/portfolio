@@ -74,9 +74,9 @@
                 },
                 {
                     "ID": "11",
-                    "aLink": "http://reznortech.rf.gd/hollow-knight-completion",
-                    "pDescription": "<strong>HTML, CSS, JavaScript, JSON</strong><br><br>Online JavaScript Tool that analyzes a Hollow Knight game player's Save File and shows them what they completed, what remains to do, shows game statistics. I also designed a system of hints which gives a clue to the player based on their current progress in the game.",
-                    "figCaption": "Web Save File Analyzer for Hollow Knight"
+                    "aLink": "https://reznormichael.github.io/hollow-knight-completion-check/",
+                    "pDescription": "<strong>File Reading, AES Decryption, Base64, HTML, CSS, JavaScript, JSON, NPM, Webpack, Babel</strong><br><br>Web JavaScript Tool that analyzes a Hollow Knight game player's Save File and shows them what they completed, what remains to do, shows game statistics. I also designed a system of hints which gives a clue to the player based on their current progress in the game.",
+                    "figCaption": "Save Game Completion Analyzer for Hollow Knight"
                 }
             ]
         },
