@@ -25,7 +25,7 @@
                 <p><strong>This page:</strong><br>
                 — HTML5, CSS, JavaScript, JSON, jQuery, Bootstrap 4 and a bit of PHP<br>
                 — bLazy to lazy-load images<br>
-                — One-Page Design with header.html and footer.html included with PHP<br>
+                — One-Page Design<br>
                 — dynamic generation of titles, descriptions, thumbnails, links from one JSON file through a single function<br>
                 — two-dimensional array in JSON file<br>
                 — file-size web optimized .png and .jpg images (pingo, Irfanview)
